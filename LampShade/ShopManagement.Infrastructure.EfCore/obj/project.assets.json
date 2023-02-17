@@ -1159,6 +1159,10 @@
       "01_Framework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
         "compile": {
           "bin/placeholder/01_Framework.dll": {}
         },
