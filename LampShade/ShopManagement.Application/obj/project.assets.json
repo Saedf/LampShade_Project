@@ -24,6 +24,20 @@
         "runtime": {
           "bin/placeholder/ShopManagement.Application.Contract.dll": {}
         }
+      },
+      "ShopManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Domain.dll": {}
+        }
       }
     }
   },
@@ -37,12 +51,18 @@
       "type": "project",
       "path": "../ShopManagement.Application.Contract/ShopManagement.Application.Contract.csproj",
       "msbuildProject": "../ShopManagement.Application.Contract/ShopManagement.Application.Contract.csproj"
+    },
+    "ShopManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ShopManageme.Domain/ShopManagement.Domain.csproj",
+      "msbuildProject": "../ShopManageme.Domain/ShopManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "01_Framework >= 1.0.0",
-      "ShopManagement.Application.Contract >= 1.0.0"
+      "ShopManagement.Application.Contract >= 1.0.0",
+      "ShopManagement.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManagement.Domain.csproj",
-      "projectName": "ShopManagement.Domain",
-      "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManagement.Domain.csproj",
+      "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectName": "ShopManagement.Application",
+      "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\obj\\",
+      "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -78,6 +98,9 @@
           "projectReferences": {
             "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
               "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+            },
+            "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManagement.Domain.csproj"
             },
             "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
               "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"

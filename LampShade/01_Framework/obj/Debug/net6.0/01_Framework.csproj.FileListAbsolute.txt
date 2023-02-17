@@ -1,0 +1,12 @@
+D:\Programming\LampShade_Project\LampShade\01_Framework\bin\Debug\net6.0\01_Framework.deps.json
+D:\Programming\LampShade_Project\LampShade\01_Framework\bin\Debug\net6.0\01_Framework.dll
+D:\Programming\LampShade_Project\LampShade\01_Framework\bin\Debug\net6.0\01_Framework.pdb
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.csproj.AssemblyReference.cache
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.AssemblyInfoInputs.cache
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.AssemblyInfo.cs
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.csproj.CoreCompileInputs.cache
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.dll
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\refint\01_Framework.dll
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\01_Framework.pdb
+D:\Programming\LampShade_Project\LampShade\01_Framework\obj\Debug\net6.0\ref\01_Framework.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rbarGeVk+skJti6xOjrJIt2liWzsuYMIGeJpcqzQMZjg2w0Fy7898kv8uTQpiCZ5PyZN0WJRCl0/7QVUs5sL3g==",
+  "dgSpecHash": "GtikREG4vcECjNSpMeDTBjkaqMpefLmU7FYoZZBGhQwSCLew8ZwsEVe5KlPAwaP9sAFWgUJNTSjiW3VW0wmnwA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManageme.Domain.csproj",
+  "projectFilePath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManageme.Domain\\ShopManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
