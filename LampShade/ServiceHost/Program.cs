@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
-ShopManagementBoostrapper
+ShopManagementBoostrapper.Configure(builder.Services,connectionString);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

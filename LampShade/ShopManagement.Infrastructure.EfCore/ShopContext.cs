@@ -12,6 +12,11 @@ namespace ShopManagement.Infrastructure.EfCore
     public class ShopContext:DbContext
     {
         public DbSet<ProductCategory> ProductCategories { get; set; }
+
+        public ShopContext(DbContextOptions options) : base(options)
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var assembly = typeof(ProductCategoryMapping).Assembly;
