@@ -4,45 +4,46 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using _01_Framework.Infrastructure;
 using Microsoft.IdentityModel.Tokens;
 using ShopManagement.Application.Contract.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Infrastructure.EfCore.Repository
 {
-    public class ProductCategoryRepository:IProductCategoryRepository
+    public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>,IProductCategoryRepository
     {
         private readonly ShopContext _context;
 
-        public ProductCategoryRepository(ShopContext context)
+        public ProductCategoryRepository(ShopContext context):base(context)
         {
             _context = context;
         }
 
-        public void Create(ProductCategory category)
-        {
-            _context.ProductCategories.Add(category);
-        }
+        //public void Create(ProductCategory category)
+        //{
+        //    _context.ProductCategories.Add(category);
+        //}
 
-        public ProductCategory GetBy(long id)
-        {
-            return _context.ProductCategories.Find(id);
-        }
+        //public ProductCategory GetBy(long id)
+        //{
+        //    return _context.ProductCategories.Find(id);
+        //}
 
-        public List<ProductCategory> GetAll()
-        {
-            return _context.ProductCategories.ToList();
-        }
+        //public List<ProductCategory> GetAll()
+        //{
+        //    return _context.ProductCategories.ToList();
+        //}
 
-        public bool Exists(Expression<Func<ProductCategory, bool>> expression)
-        {
-            return _context.ProductCategories.Any(expression);
-        }
+        //public bool Exists(Expression<Func<ProductCategory, bool>> expression)
+        //{
+        //    return _context.ProductCategories.Any(expression);
+        //}
 
-        public void SaveChanges()
-        {
-            _context.SaveChanges();
-        }
+        //public void SaveChanges()
+        //{
+        //    _context.SaveChanges();
+        //}
 
         public EditProductCategory? GetDetailsBy(long id)
         {

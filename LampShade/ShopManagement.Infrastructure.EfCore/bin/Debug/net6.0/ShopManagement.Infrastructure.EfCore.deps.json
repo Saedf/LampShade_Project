@@ -702,6 +702,10 @@
         }
       },
       "01_Framework/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
         "runtime": {
           "01_Framework.dll": {}
         }

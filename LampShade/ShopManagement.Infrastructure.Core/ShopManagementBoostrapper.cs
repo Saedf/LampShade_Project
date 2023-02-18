@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _01_Framework.Domain;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
 using ShopManagement.Application.Contract.ProductCategory;
@@ -15,7 +16,9 @@ namespace ShopManagement.Infrastructure.Core
             services.AddDbContext<ShopContext>(x=>x.UseSqlServer(connectionString));
 
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
-            services.AddTransient<IProductCategoryApplication,ProductCategoryApplication>()
+            services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+
+            
         }
 
     }
