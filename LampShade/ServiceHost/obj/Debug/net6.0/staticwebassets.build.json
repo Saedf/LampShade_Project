@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tTujUACdM3PxGPTqMLC9oOEk6aQMM4K+IdGvchkmzQ4=",
+  "Hash": "VYjL3V4rx7U+1xFsOooZ1u/wNAK1I3zWAo2HNauNlyU=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -5661,23 +5661,6 @@
       "OriginalItemSpec": "wwwroot\\AdminTheme\\js\\wow.min.js"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\css\\site.css",
-      "SourceId": "ServiceHost",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
-      "BasePath": "_content/ServiceHost",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\favicon.ico",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -5693,23 +5676,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\js\\site.js",
-      "SourceId": "ServiceHost",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
-      "BasePath": "_content/ServiceHost",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

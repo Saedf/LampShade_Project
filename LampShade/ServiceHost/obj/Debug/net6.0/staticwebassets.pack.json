@@ -1325,16 +1325,8 @@
       "PackagePath": "staticwebassets\\AdminTheme\\js\\wow.min.js"
     },
     {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\lib\\bootstrap\\LICENSE",
