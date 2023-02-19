@@ -1081,6 +1081,26 @@
       "PackagePath": "staticwebassets\\AdminTheme\\css\\waves-effect.css"
     },
     {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.eot",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.eot"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.svg",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.svg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.ttf",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.woff",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.woff"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\IranianSans.woff2",
+      "PackagePath": "staticwebassets\\AdminTheme\\fonts\\IranianSans.woff2"
+    },
+    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\AdminTheme\\fonts\\Material-Design-Iconic-Font.eot"
     },
