@@ -165,6 +165,10 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
     },
     {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\persian-datepicker.min.css"
+    },
+    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\style-responsive.css",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\css\\style-responsive.css"
     },
@@ -817,6 +821,18 @@
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\npm.js"
     },
     {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\persian-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\site.js"
+    },
+    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\skycons.min.js",
       "PackagePath": "staticwebassets\\AdminTheme\\assets\\js\\skycons.min.js"
     },
@@ -1283,66 +1299,6 @@
     {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\images\\users\\avatar-9.jpg",
       "PackagePath": "staticwebassets\\AdminTheme\\images\\users\\avatar-9.jpg"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\bootstrap.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery-ui-1.10.1.custom.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery-ui-1.10.1.custom.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.app.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.app.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.chat.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.chat.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.dashboard.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.dashboard.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.nicescroll.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.nicescroll.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.scrollTo.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.scrollTo.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\jquery.todo.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\jquery.todo.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\modernizr.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\modernizr.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\npm.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\npm.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\skycons.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\skycons.min.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\waves.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\waves.js"
-    },
-    {
-      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\js\\wow.min.js",
-      "PackagePath": "staticwebassets\\AdminTheme\\js\\wow.min.js"
     },
     {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\favicon.ico",

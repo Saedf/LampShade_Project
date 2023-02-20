@@ -2,11 +2,17 @@
 @model ServiceHost.Areas.Administration.Pages.Shop.ProductCategories.IndexModel
 @{
 }
+
+@{
+    //Layout = "Shared/_AdminLayout";
+    ViewData["title"] = "مدیریت گروه محصولات";
+}
+
 <div class="row">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg">ایجاد گروه محصول جدید</a>
+            <a class="btn btn-warning pull-right m-rl-5" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه محصول جدید</a>
         </p>
     </div>
 </div>
@@ -56,12 +62,12 @@
                                     <tr>
                                         <td>@category.Id</td>
                                         <td>
-                                            <img src="@category.Picture" style="width: 70px; height: 70px" />
+                                            <img src="@category.Picture" style="width: 70px; height: 70px" alt=""/>
                                         </td>
                                         <td>@category.Name</td>
                                         <td>@category.CreationDate</td>
                                         <td>
-                                            <a class="btn btn-warning pull-right m-rl-5">
+                                            <a class="btn btn-warning pull-right m-rl-5" >
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>
@@ -76,7 +82,9 @@
     </div>
 </div>
 
+
 @section Scripts {
+  
     <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
     <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
 
