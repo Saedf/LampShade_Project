@@ -24,11 +24,22 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
            return Partial("./Create",new CreateProductCategory());
         }
 
+      
         public JsonResult OnPostCreate(CreateProductCategory commandCategory)
         {
             var result = _productCategoryApplication.Create(commandCategory);
             return new JsonResult(result);
         }
-    
+        public PartialViewResult OnGetEdit(long id)
+        {
+            var productCategory = _productCategoryApplication.GetDetailsBy(id);
+            return Partial("Edit", productCategory);
+        }
+        public JsonResult OnPostEdit(EditProductCategory commandCategory)
+        {
+            var result = _productCategoryApplication.Edit(commandCategory);
+            return new JsonResult(result);
+        }
+
     }
 }

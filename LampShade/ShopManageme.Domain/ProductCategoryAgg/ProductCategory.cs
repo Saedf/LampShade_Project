@@ -39,7 +39,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
 
         public void Edit(string name, string picture, string pictureAlt,
             string pictureTitle, string description, string keywords,
-            string metaDescription, string slug)
+            string metaDescription)
         {
             Name = name;
             Picture = picture;
@@ -48,7 +48,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             Description = description;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            Slug = slug;
+            
         }
     }
 }

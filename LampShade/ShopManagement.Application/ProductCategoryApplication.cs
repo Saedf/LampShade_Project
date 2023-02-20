@@ -48,9 +48,9 @@ namespace ShopManagement.Application
             {
                 return operationResult.Faild("امکان ثبت رکورد تکراری وجود ندارد ");
             }
-            var slug=command.Slug.SlugiFy();
+            
             productCategory.Edit(command.Name,command.Picture,command.PictureAlt,command.PictureTitle,command.Description
-                ,command.Keywords,command.MetaDescription,slug);
+                ,command.Keywords,command.MetaDescription);
 
             _categoryRepository.SaveChanges();
             return operationResult.Succeeded();
