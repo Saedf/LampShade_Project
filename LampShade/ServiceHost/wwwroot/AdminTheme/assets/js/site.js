@@ -2,7 +2,6 @@
 
 SinglePage.LoadModal = function () {
     var url = window.location.hash.toLowerCase();
-   
     if (!url.startsWith("#showmodal")) {
         return;
     }
@@ -86,7 +85,7 @@ function CallBackHandler(data, action, form) {
             alert(data.Message);
             break;
         case "Refresh":
-            if (data.isSuccedded) {
+            if (data.isSucceeded) {
                 window.location.reload();
             } else {
                 alert(data.message);
