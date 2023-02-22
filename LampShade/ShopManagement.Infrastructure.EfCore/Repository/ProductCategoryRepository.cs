@@ -80,5 +80,14 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
 
             return query.OrderByDescending(x => x.Id).ToList();
         }
+
+        public List<ViewModelProductCategory> getProductGateCategories()
+        {
+            return _context.ProductCategories.Select(x => new ViewModelProductCategory
+            {
+                Name = x.Name,
+                Id = x.Id
+            }).ToList();
+        }
     }
 }

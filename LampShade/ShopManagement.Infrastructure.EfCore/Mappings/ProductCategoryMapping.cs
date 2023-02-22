@@ -24,6 +24,9 @@ namespace ShopManagement.Infrastructure.EfCore.Mappings
             builder.Property(x => x.PictureTitle).HasMaxLength(500);
             builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
             builder.Property(x => x.Slug).HasMaxLength(300).IsRequired();
+
+            builder.HasMany(x => x.Products).WithOne(x => x.Category)
+                .HasForeignKey(x => x.CategoryId);
         }
     }
 }
