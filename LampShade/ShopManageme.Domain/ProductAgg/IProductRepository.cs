@@ -8,5 +8,5 @@ public interface IProductRepository:IRepository<long,Product>
 {
     EditProduct GetDetails(long id);
     List<ProductViewModel> Search(ProductSearchModel searchModel);
-    
+    List<ProductViewModel> GetProducts();
 }
