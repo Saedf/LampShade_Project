@@ -176,6 +176,13 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Pages\Shared\Components\Slider\" />
 	  <Folder Include="wwwroot\ProductPictures\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
 	</ItemGroup>
 </Project>

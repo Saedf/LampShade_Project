@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wl+grRh/eQB9PeoNbAWcTUXN/DNDzXlkSp2OXrsIQtE=",
+  "Hash": "eSK/fy8cUhvaTS1C/w9wkRf0sixUrWqll439nsJYjwI=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6766,6 +6766,91 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\ionicons28b5.woff"
     },
     {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.eot",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.eot"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.svg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.svg"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.ttf",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.ttf"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.woff",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.woff"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2"
+    },
+    {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\bkg_testimonials.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -7140,12 +7225,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\blog\\slider\\5-370x235.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img1-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/img1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7154,15 +7239,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img2-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/img2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7171,15 +7256,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img3-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/img3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7188,15 +7273,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img4-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/img4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7205,7 +7290,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img4.jpg"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\favicon.ico",
@@ -7225,12 +7310,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\favicon.ico"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/hero-slider/slider1-eposi1-1820x785.jpg",
+      "RelativePath": "Theme/assets/img/hero-slider/slider1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7239,15 +7324,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider1-eposi1-1820x785.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider1.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider2.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/hero-slider/slider2-eposi1-1820x785.jpg",
+      "RelativePath": "Theme/assets/img/hero-slider/slider2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7256,15 +7341,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider2-eposi1-1820x785.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider2.jpg"
     },
     {
-      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg",
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\hero-slider\\slider3.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/hero-slider/slider3-eposi1-1820x785.jpg",
+      "RelativePath": "Theme/assets/img/hero-slider/slider3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7273,7 +7358,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider3.jpg"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\de-de.png",
@@ -8260,6 +8345,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\custom.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\custom.js"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\plugins.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/js/plugins.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\plugins.js"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\js\\vendors.js",

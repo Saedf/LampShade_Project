@@ -1,4 +1,7 @@
 ﻿using _01_Framework.Domain;
+using _02_LampShadeQuery.Contracts.ProductCategory;
+using _02_LampShadeQuery.Contracts.Query;
+using _02_LampShadeQuery.Contracts.Slider;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
@@ -31,6 +34,9 @@ namespace ShopManagement.Infrastructure.Core
 
             services.AddTransient<ISliderRepository, SliderRepository>();
             services.AddTransient<ISliderApplication, SliderApplication>();
+
+            services.AddTransient<ISliderQuery, SliderQuery>();
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
         }
 

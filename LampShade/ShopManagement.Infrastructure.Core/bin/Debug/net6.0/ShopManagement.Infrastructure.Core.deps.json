@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ShopManagement.Infrastructure.Core/1.0.0": {
         "dependencies": {
+          "02_LampShadeQuery": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Domain": "1.0.0",
@@ -622,6 +623,14 @@
           "01_Framework.dll": {}
         }
       },
+      "02_LampShadeQuery/1.0.0": {
+        "dependencies": {
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "02_LampShadeQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "dependencies": {
           "01_Framework": "1.0.0",
@@ -1102,6 +1111,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "01_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "02_LampShadeQuery/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
