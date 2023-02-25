@@ -1,0 +1,12 @@
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02_LampShadeQuery.deps.json
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02_LampShadeQuery.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02_LampShadeQuery.pdb
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.csproj.AssemblyReference.cache
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.AssemblyInfoInputs.cache
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.AssemblyInfo.cs
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.csproj.CoreCompileInputs.cache
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\refint\02_LampShadeQuery.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.pdb
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\ref\02_LampShadeQuery.dll

@@ -34,6 +34,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                     PictureTitle = x.PictureTitle,
                     Text = x.Text,
                     Title = x.Title,
+                    Link = x.Link
                     
                     
                 }).FirstOrDefault(x=>x.Id==id);
