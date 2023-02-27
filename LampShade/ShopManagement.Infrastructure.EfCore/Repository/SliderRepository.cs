@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using _0_Framework.Application;
 using _01_Framework.Domain;
 using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -48,7 +49,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Title = x.Title,
                 Heading = x.Heading,
                 Picture = x.Picture,
-                CreatonDate = x.CreationDate.ToString(CultureInfo.CurrentCulture),
+                CreatonDate = x.CreationDate.ToFarsi(),
                 IsRemoved = x.IsRemoved
 
             }).OrderByDescending(x=>x.Id).ToList();

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using _0_Framework.Application;
 using _01_Framework.Infrastructure;
 using Microsoft.IdentityModel.Tokens;
 using ShopManagement.Application.Contract.ProductCategory;
@@ -67,7 +68,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
             var query = _context.ProductCategories.Select(x => new ViewModelProductCategory()
             {
                 Id = x.Id,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
                 Name = x.Name,
                 Picture = x.Picture,
                 

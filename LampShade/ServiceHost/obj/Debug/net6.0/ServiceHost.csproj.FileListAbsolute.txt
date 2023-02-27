@@ -100,3 +100,13 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceH
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\02_LampShadeQuery.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\02_LampShadeQuery.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.Core.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.pdb

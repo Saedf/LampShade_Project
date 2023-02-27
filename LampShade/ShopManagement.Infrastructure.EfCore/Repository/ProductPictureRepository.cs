@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using _0_Framework.Application;
 using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contract.ProductPicture;
@@ -34,7 +35,7 @@ public class ProductPictureRepository:RepositoryBase<long,ProductPicture>,IProdu
             .Select(x => new ProductPictureViewModel
             {
                 Id = x.Id,
-                CreationDate = x.CreationDate.ToString(CultureInfo.CurrentCulture),
+                CreationDate = x.CreationDate.ToFarsi(),
                 Picture = x.Picture,
                 Product = x.Product.Name,
                 ProductId = x.ProductId,

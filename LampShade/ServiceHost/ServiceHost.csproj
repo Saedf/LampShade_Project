@@ -161,6 +161,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiscountManagement.Infrastructure.Core\DiscountManagement.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.Core\ShopManagement.Infrastructure.Core.csproj" />
   </ItemGroup>
 	<ItemGroup>

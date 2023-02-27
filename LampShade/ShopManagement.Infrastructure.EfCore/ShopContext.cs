@@ -19,7 +19,7 @@ namespace ShopManagement.Infrastructure.EfCore
         public DbSet<ProductPicture> ProductPictures { get; set; }
         public DbSet<Slider> Sliders { get; set; }
 
-        public ShopContext(DbContextOptions options) : base(options)
+        public ShopContext(DbContextOptions<ShopContext> options) : base(options)
         {
         }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eSK/fy8cUhvaTS1C/w9wkRf0sixUrWqll439nsJYjwI=",
+  "Hash": "G+7Ll8bLZhh6k6bUAevz1Eo2qbIZ1fXg9Y/P1FK8e/E=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -729,6 +729,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.css",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/css/persian-datepicker.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.css"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.min.css",
@@ -3519,6 +3536,23 @@
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\npm.js"
     },
     {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/js/persian-date.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\persian-date.js"
+    },
+    {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -3534,6 +3568,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\persian-date.min.js"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/js/persian-datepicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.js"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\persian-datepicker.min.js",

@@ -1,3 +1,4 @@
+using DiscountManagement.Infrastructure.Core;
 using ShopManagement.Infrastructure.Core;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ builder.Services.AddRazorPages();
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopManagementBoostrapper.Configure(builder.Services,connectionString);
+DiscountManagementBoostrapper.Configure(builder.Services, connectionString);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,5 +27,4 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
 app.Run();
