@@ -52,8 +52,7 @@ namespace DiscountManagement.Application
             }
 
             if (_customerDiscountRepository.Exists(x=>x.ProductId==command.ProductId &&
-                                                      x.DiscountRate==command.DiscountRate && x.StartDate==startDate &&
-                                                      x.EndDate==endDate &&
+                                                      x.DiscountRate==command.DiscountRate &&
                                                       x.Id!=command.Id))
             {
                 return operation.Faild(ApplicationMessage.DuplicatedRecord);

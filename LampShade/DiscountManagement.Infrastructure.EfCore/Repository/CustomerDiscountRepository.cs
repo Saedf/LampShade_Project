@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -30,8 +31,8 @@ namespace DiscountManagement.Infrastructure.EfCore.Repository
                 {
                     ProductId = x.ProductId,
                     DiscountRate = x.DiscountRate,
-                    EndDate = x.EndDate.ToFarsi(),
-                    StartDate = x.StartDate.ToFarsi(),
+                    EndDate = x.EndDate.ToString(CultureInfo.InvariantCulture),
+                    StartDate = x.StartDate.ToString(CultureInfo.InvariantCulture),
                     Id = x.Id,
                     Reason = x.Reason,
 
