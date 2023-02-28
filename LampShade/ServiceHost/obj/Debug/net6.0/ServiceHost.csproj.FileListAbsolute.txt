@@ -110,3 +110,11 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Discount
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.Core.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.pdb

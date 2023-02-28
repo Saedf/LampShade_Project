@@ -48,7 +48,7 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="UnitPrice" class="control-label">قیمت محصول</label>
-                    <input type="text" asp-for="UnitPrice" class="form-control">
+                    <input type="text" @*onkeyup="javascript:this.value=separate(this.value)"*@ asp-for="UnitPrice" class="form-control">
                     <span asp-validation-for="UnitPrice" class="error"></span>
                 </div>
             </div>

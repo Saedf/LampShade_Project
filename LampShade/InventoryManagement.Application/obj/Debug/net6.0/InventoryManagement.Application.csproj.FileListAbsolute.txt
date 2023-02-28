@@ -1,0 +1,12 @@
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.deps.json
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.csproj.AssemblyReference.cache
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.AssemblyInfo.cs
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\refint\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\InventoryManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Application\obj\Debug\net6.0\ref\InventoryManagement.Application.dll
