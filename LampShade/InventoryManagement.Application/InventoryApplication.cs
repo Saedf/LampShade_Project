@@ -11,10 +11,16 @@ namespace InventoryManagement.Application
 {
     public class InventoryApplication:IInventoryApplication
     {
-        private readonly IInventoryRepository
+        private readonly IInventoryRepository _inventoryRepository;
+
+        public InventoryApplication(IInventoryRepository inventoryRepository)
+        {
+            _inventoryRepository = inventoryRepository;
+        }
+
         public OperationResult Create(CreateInventory command)
         {
-            throw new NotImplementedException();
+            var operation=new OperationResult();
         }
 
         public OperationResult Edit(EditInventory command)
