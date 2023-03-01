@@ -64,17 +64,44 @@ namespace InventoryManagement.Application
         {
             var operation = new OperationResult();
             var inventory = _inventoryRepository.GetBy(command.InventoryId);
+            if (inventory==null)
+            {
+                return operation.Faild(ApplicationMessage.RecordNotFound);
+            }
+
+            const long operatorId = 1;
+            inventory.Increase(command.Count,operatorId,command.Description);
+            _inventoryRepository.SaveChanges();
             return operation.Succeeded();
         }
 
         public OperationResult Reduce(ReduceInventory command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            var inventory = _inventoryRepository.GetBy(command.InventoryId);
+            if (inventory == null)
+            {
+                return operation.Faild(ApplicationMessage.RecordNotFound);
+            }
+
+            const long operatorId = 1;
+            inventory.Reduce(command.Count, operatorId, command.Description,0);
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public OperationResult Reduce(List<ReduceInventory> command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            const long operatorId = 1;
+
+            foreach (var item in command)
+            {
+                var inventory = _inventoryRepository.GetBy(item.InventoryId);
+                inventory.Reduce(item.Count,operatorId,item.Description,item.OrderId);
+            }
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
     }
 }

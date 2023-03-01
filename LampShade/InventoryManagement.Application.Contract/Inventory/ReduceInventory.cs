@@ -8,7 +8,7 @@ public class ReduceInventory
     public string Description { get; set; }
     public long OrderId { get; set; }
 
-    protected ReduceInventory()
+    public ReduceInventory()
     {
             
     }
