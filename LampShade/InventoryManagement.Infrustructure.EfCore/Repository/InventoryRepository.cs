@@ -26,11 +26,7 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
 
       
 
-        public Inventory GetBy(long productId)
-        {
-            return _inventoryContext.Inventory.FirstOrDefault(x => x.ProductId == productId);
-        }
-
+   
 
         public EditInventory GetDetails(long id)
         {
@@ -69,6 +65,11 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
                 (item=>item.Product=products.FirstOrDefault(x=>x.Id==item.ProductId)?.Name);
             return inventory;
 
+        }
+
+        public Inventory Get(long productId)
+        {
+            return _inventoryContext.Inventory.FirstOrDefault(x => x.ProductId == productId);
         }
     }
 }

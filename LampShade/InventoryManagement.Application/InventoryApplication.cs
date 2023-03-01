@@ -21,26 +21,50 @@ namespace InventoryManagement.Application
         public OperationResult Create(CreateInventory command)
         {
             var operation=new OperationResult();
+            if (_inventoryRepository.Exists(x=>x.ProductId==command.ProductId))
+            {
+                return operation.Faild(ApplicationMessage.DuplicatedRecord);
+            }
+
+            var inventory = new Inventory(command.ProductId, command.UnitPrice);
+            _inventoryRepository.Create(inventory);
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public OperationResult Edit(EditInventory command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            var inventory = _inventoryRepository.GetBy(command.Id);
+            if (inventory==null)
+            {
+                return operation.Faild(ApplicationMessage.RecordNotFound);
+            }
+
+            if (_inventoryRepository.Exists(x=>x.ProductId==command.ProductId && x.Id!=command.Id))
+            {
+                return operation.Faild(ApplicationMessage.DuplicatedRecord);
+            }
+            inventory.Edit(command.ProductId,command.UnitPrice);
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.Search(searchModel);
         }
 
         public EditInventory GetDetails(long id)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.GetDetails(id);
         }
 
         public OperationResult Increase(IncreaseInventory command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            var inventory = _inventoryRepository.GetBy(command.InventoryId);
+            return operation.Succeeded();
         }
 
         public OperationResult Reduce(ReduceInventory command)

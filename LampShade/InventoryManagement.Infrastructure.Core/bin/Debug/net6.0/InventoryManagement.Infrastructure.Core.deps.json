@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "InventoryManagement.Infrastructure.Core/1.0.0": {
         "dependencies": {
+          "InventoryManagement.Application": "1.0.0",
           "InventoryManagement.Domain": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -621,6 +622,15 @@
           "01_Framework.dll": {}
         }
       },
+      "InventoryManagement.Application/1.0.0": {
+        "dependencies": {
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "InventoryManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "InventoryManagement.Application.dll": {}
+        }
+      },
       "InventoryManagement.Application.Contract/1.0.0": {
         "dependencies": {
           "ShopManagement.Application.Contract": "1.0.0"
@@ -1119,6 +1129,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "01_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventoryManagement.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

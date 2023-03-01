@@ -25,3 +25,5 @@ D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Co
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\InventoryManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.pdb

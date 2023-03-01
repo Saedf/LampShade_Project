@@ -118,3 +118,5 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Inventor
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb
