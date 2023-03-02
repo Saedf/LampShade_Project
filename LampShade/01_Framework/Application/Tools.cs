@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace _0_Framework.Application
+namespace _01_Framework.Application
 {
     public static class Tools
     {
@@ -101,7 +101,7 @@ namespace _0_Framework.Application
             return new DateTime(year, month, day, new PersianCalendar());
         }
 
-        public static string ToMoney(this double myMoney)
+        public static string ToMoney(this decimal myMoney)
         {
             return myMoney.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
         }

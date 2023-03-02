@@ -23,3 +23,9 @@ D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\ob
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\02_LampShadeQuery.dll
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\02_LampShadeQuery.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.pdb

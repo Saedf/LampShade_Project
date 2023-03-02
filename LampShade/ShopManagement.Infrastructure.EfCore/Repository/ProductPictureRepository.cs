@@ -1,5 +1,5 @@
 ﻿using System.Globalization;
-using _0_Framework.Application;
+using _01_Framework.Application;
 using _01_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contract.ProductPicture;
