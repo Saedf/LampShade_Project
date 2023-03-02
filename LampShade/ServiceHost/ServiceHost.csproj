@@ -185,6 +185,10 @@
 	  <UpToDateCheckInput Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
 	</ItemGroup>
 	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml" />
 	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml" />
 	</ItemGroup>
 </Project>
