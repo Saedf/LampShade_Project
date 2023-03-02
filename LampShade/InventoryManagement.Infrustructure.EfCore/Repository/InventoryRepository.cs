@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using _0_Framework.Application;
-using _01_Framework.Domain;
+﻿using _0_Framework.Application;
 using _01_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
-using Microsoft.EntityFrameworkCore;
 using ShopManagement.Infrastructure.EfCore;
 
 namespace InventoryManagement.Infrustructure.EfCore.Repository
@@ -70,6 +63,26 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
         public Inventory Get(long productId)
         {
             return _inventoryContext.Inventory.FirstOrDefault(x => x.ProductId == productId);
+        }
+
+        public List<InventoryOperationViewModel> GerOperationLog(long inventoryId)
+        {
+            var inventory=_inventoryContext.Inventory.FirstOrDefault(x=>x.Id==inventoryId);
+            return inventory.InventoryOperations
+                .Select(x=>new InventoryOperationViewModel
+                {
+                    Id = x.Id,
+                    Count = x.Count,
+                    Description = x.Description,
+                    OrderId = x.OrderId,
+                    OperationDate = x.OperationDate.ToFarsi(),
+                    Operation = x.Operation,
+                    Operator = "مدیر سیستم",
+                    OperatorId = x.OperatorId,
+                    CurrentCount = x.CurrentCount
+                })
+                .OrderByDescending(x=>x.Id)
+                .ToList();
         }
     }
 }

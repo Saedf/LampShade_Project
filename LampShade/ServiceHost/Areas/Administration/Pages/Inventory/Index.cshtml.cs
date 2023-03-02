@@ -87,5 +87,11 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
             return new JsonResult(result);
 
         }
+
+        public IActionResult OnGetLog(long id)
+        {
+            var log = _inventoryApplication.GerOperationLog(id);
+            return Partial("OperationLog", log);
+        }
     }
 }

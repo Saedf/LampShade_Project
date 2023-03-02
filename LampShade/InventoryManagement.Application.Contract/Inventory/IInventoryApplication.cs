@@ -11,7 +11,7 @@ public interface IInventoryApplication
     OperationResult Increase(IncreaseInventory command);
     OperationResult Reduce(ReduceInventory command);
     OperationResult Reduce(List<ReduceInventory> command);
-        
+    List<InventoryOperationViewModel> GerOperationLog(long inventoryId);
 
 
 }

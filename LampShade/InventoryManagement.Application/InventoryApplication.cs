@@ -103,5 +103,10 @@ namespace InventoryManagement.Application
             _inventoryRepository.SaveChanges();
             return operation.Succeeded();
         }
+
+        public List<InventoryOperationViewModel> GerOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GerOperationLog(inventoryId);
+        }
     }
 }
