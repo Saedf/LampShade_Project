@@ -64,8 +64,8 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>قیمت</th>
-                                    <th>موجودی انبار</th>
+                                   @* <th>قیمت</th>*@
+                                   @* <th>موجودی انبار</th>*@
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -81,8 +81,8 @@
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.Category</td>
-                                        <td>@item.UnitPrice</td>
-                                        <td>
+                                      @*  <td>@item.UnitPrice</td>*@
+                                       @* <td>
                                             @if (@item.IsInstock)
                                             {
                                                 <i class="fa fa-check text-success"></i>
@@ -91,13 +91,13 @@
                                             {
                                                 <i class="fa fa-remove text-danger"></i>
                                             }
-                                        </td>
+                                        </td>*@
                                         <td>@item.CreationDate</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5" href="#showmodal=@Url.Page("./Index","Edit",new {id= item.Id })">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
-                                           @if (@item.IsInstock)
+                                         @*  @if (@item.IsInstock)
                                            {
                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
                                                   class="btn btn-danger"> اتمام موجودی</a>
@@ -106,7 +106,7 @@
                                            {
                                                <a asp-page="./Index" asp-page-handler="IsInStock" asp-route-id="@item.Id"
                                                   class="btn btn-success"> موجود شد</a>
-                                           }
+                                           }*@
                                         </td>
                                     </tr>
                                 }

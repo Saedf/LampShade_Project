@@ -35,7 +35,7 @@
             
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="CategoryId" class="control-label">گروه محصول</label>
                     <select asp-for="CategoryId" class="form-control" asp-items='new SelectList(Model.ProductCategories, "Id", "Name")'>
@@ -44,14 +44,14 @@
                     <span asp-validation-for="ProductCategories" class="error"></span>
                 </div>
             </div>
-          
+          @*
             <div class="col-md-6">
                 <div class="form-group">
                     <label asp-for="UnitPrice" class="control-label">قیمت محصول</label>
-                    <input type="text" @*onkeyup="javascript:this.value=separate(this.value)"*@ asp-for="UnitPrice" class="form-control">
+                    <input type="text" asp-for="UnitPrice" class="form-control">
                     <span asp-validation-for="UnitPrice" class="error"></span>
                 </div>
-            </div>
+            </div>*@
         </div>
        
             <div class="row">

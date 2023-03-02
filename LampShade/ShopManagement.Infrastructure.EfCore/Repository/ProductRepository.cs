@@ -37,7 +37,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
                     ShortDescription = x.ShortDescription,
-                    UnitPrice = x.UnitPrice
+                    //UnitPrice = x.UnitPrice
                 })
                 .FirstOrDefault(x=>x.Id==id);
         }
@@ -53,8 +53,8 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                     CategoryId =x.CategoryId, 
                     Category = x.Category.Name,
                     Picture = x.Picture,
-                    UnitPrice = x.UnitPrice,
-                    IsInstock = x.IsInStock,
+                    //UnitPrice = x.UnitPrice,
+                    //IsInstock = x.IsInStock,
                     CreationDate = x.CreationDate.ToFarsi()
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
