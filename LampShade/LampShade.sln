@@ -53,15 +53,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Application", "IM.Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IM.Infrastructure", "IM.Infrastructure", "{CFBD5C96-DB47-4C1F-84CC-3C3F453A7BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Domain", "InventoryManagement.Domain\InventoryManagement.Domain.csproj", "{D096AFCF-2EBB-480D-AFC9-EBFAE25BD81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Domain", "InventoryManagement.Domain\InventoryManagement.Domain.csproj", "{D096AFCF-2EBB-480D-AFC9-EBFAE25BD81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Application", "InventoryManagement.Application\InventoryManagement.Application.csproj", "{1E7383E9-2E3B-494C-9634-833A46E5C3BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Application", "InventoryManagement.Application\InventoryManagement.Application.csproj", "{1E7383E9-2E3B-494C-9634-833A46E5C3BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Application.Contract", "InventoryManagement.Application.Contract\InventoryManagement.Application.Contract.csproj", "{FF51500B-8DA5-4EB4-97E5-44AC4CA3E1C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Application.Contract", "InventoryManagement.Application.Contract\InventoryManagement.Application.Contract.csproj", "{FF51500B-8DA5-4EB4-97E5-44AC4CA3E1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Infrustructure.EfCore", "InventoryManagement.Infrustructure.EfCore\InventoryManagement.Infrustructure.EfCore.csproj", "{11D51925-67C2-4169-A030-DBC919E3E0C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Infrustructure.EfCore", "InventoryManagement.Infrustructure.EfCore\InventoryManagement.Infrustructure.EfCore.csproj", "{11D51925-67C2-4169-A030-DBC919E3E0C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Infrastructure.Core", "InventoryManagement.Infrastructure.Core\InventoryManagement.Infrastructure.Core.csproj", "{0605542A-4D77-48C1-8C36-9DD0EDA3DDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Infrastructure.Core", "InventoryManagement.Infrastructure.Core\InventoryManagement.Infrastructure.Core.csproj", "{0605542A-4D77-48C1-8C36-9DD0EDA3DDE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

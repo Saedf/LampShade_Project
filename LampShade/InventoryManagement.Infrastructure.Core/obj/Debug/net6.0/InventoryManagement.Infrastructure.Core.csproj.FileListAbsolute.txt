@@ -3,11 +3,13 @@ D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Co
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\01_Framework.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.Contract.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Domain.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\ShopManagement.Application.Contract.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\ShopManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\01_Framework.pdb
@@ -25,5 +27,3 @@ D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Co
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\InventoryManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Core.dll
-D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.dll
-D:\Programming\LampShade_Project\LampShade\InventoryManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.pdb

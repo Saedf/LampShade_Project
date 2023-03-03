@@ -178,7 +178,6 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Pages\Components\" />
 	  <Folder Include="Pages\Shared\Components\Slider\" />
 	  <Folder Include="wwwroot\ProductPictures\" />
 	</ItemGroup>
