@@ -111,6 +111,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrustructure.EfCore\\InventoryManagement.Infrustructure.EfCore.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrustructure.EfCore\\InventoryManagement.Infrustructure.EfCore.csproj"
               },

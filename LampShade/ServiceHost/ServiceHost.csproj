@@ -178,6 +178,7 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Pages\Components\" />
 	  <Folder Include="Pages\Shared\Components\Slider\" />
 	  <Folder Include="wwwroot\ProductPictures\" />
 	</ItemGroup>
@@ -185,10 +186,14 @@
 	  <UpToDateCheckInput Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
 	</ItemGroup>
 	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\LatestArrivals\Default.cshtml" />
 	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml" />
 	  <_ContentIncludedByDefault Remove="Pages\Shared\Components\ProductCategory\Default.cshtml" />
 	</ItemGroup>
 	<ItemGroup>
 	  <UpToDateCheckInput Remove="Pages\Shared\Components\ProductCategoryWithProduct\Default.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Pages\Shared\Components\LatestArrivals\Default.cshtml" />
 	</ItemGroup>
 </Project>

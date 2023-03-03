@@ -714,6 +714,7 @@
       },
       "02_LampShadeQuery/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure.EfCore": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
           "ShopManagement.Infrastructure.EfCore": "1.0.0"
         },

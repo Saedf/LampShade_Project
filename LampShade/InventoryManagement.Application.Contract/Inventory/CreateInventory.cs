@@ -8,7 +8,8 @@ public class CreateInventory
 {
     [Range(1,10000,ErrorMessage = ValidationMessages.IsRequired)]
     public long ProductId { get; set; }
-    [Range(1,10000,ErrorMessage = ValidationMessages.IsRequired)]
+    [Required(ErrorMessage = ValidationMessages.IsRequired)]
+    [Range(1,10000000,ErrorMessage = ValidationMessages.IsBetweenValue)]
     public decimal UnitPrice { get; set; }
     public List<ProductViewModel> Products { get; set; }
 
