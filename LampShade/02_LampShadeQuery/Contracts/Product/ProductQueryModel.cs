@@ -21,5 +21,6 @@ namespace _02_LampShadeQuery.Contracts.Product
         public string Slug { get; set; }
         public bool HasDiscount { get; set; }
         public string DiscountExpireDate { get; set; }
+        public string ShortDescription { get; set; }
     }
 }
