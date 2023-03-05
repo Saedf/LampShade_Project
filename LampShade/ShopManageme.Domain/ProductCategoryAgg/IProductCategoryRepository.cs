@@ -10,6 +10,6 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         EditProductCategory? GetDetailsBy(long id);
         List<ViewModelProductCategory> Search(SearchModelProductCategory searchModel);
         List<ViewModelProductCategory> getProductGateCategories();
-
+        string GetSlugBy(long id);
     }
 }

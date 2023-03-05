@@ -90,5 +90,15 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Id = x.Id
             }).ToList();
         }
+
+        public string GetSlugBy(long id)
+        {
+            return _context.ProductCategories.Select(x =>
+                new
+                {
+                    x.Id, x.Slug
+                }).FirstOrDefault(x => x.Id == id).Slug;
+
+        }
     }
 }

@@ -32,7 +32,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                     KeyWords = x.KeyWords,
                     MetaDescription = x.MetaDescription,
                     Name = x.Name,
-                    Picture = x.Picture,
+                    // Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     Slug = x.Slug,
@@ -84,6 +84,12 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Name = x.Name
 
             }).ToList();
+        }
+
+        public Product GetProductWithCategory(long id)
+        {
+            return _shopContext.Products.Include(x => x.Category)
+                .FirstOrDefault(x => x.Id == id);
         }
     }
 
