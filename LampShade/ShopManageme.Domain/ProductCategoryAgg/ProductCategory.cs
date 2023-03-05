@@ -47,16 +47,20 @@ namespace ShopManagement.Domain.ProductCategoryAgg
 
         public void Edit(string name, string picture, string pictureAlt,
             string pictureTitle, string description, string keywords,
-            string metaDescription)
+            string metaDescription,string slug)
         {
             Name = name;
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+            {
+                Picture = picture;
+            }
+           
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
             Description = description;
             Keywords = keywords;
             MetaDescription = metaDescription;
-            
+            Slug = slug;
         }
     }
 }

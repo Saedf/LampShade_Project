@@ -1461,6 +1461,26 @@
       "PackagePath": "staticwebassets\\AdminTheme\\products\\product-3-80x106.jpg"
     },
     {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\آباژور\\2023-03-05-19-54-59-img1-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\آباژور\\2023-03-05-19-54-59-img1-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\2023-03-05-19-46-03-img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\2023-03-05-19-46-03-img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\2023-03-05-19-46-34-img4-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\اتاق-خواب\\2023-03-05-19-46-34-img4-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\صندلی-پاف\\2023-03-05-19-55-23-img3-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\صندلی-پاف\\2023-03-05-19-55-23-img3-top-eposi1.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\چراغ-شب\\2023-03-05-19-54-37-img2-top-eposi1.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\چراغ-شب\\2023-03-05-19-54-37-img2-top-eposi1.jpg"
+    },
+    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",
       "PackagePath": "staticwebassets\\Theme\\assets\\css\\Custom.css"
     },

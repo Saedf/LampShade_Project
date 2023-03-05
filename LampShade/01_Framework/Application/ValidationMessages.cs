@@ -10,5 +10,6 @@ namespace _01_Framework.Application
     {
         public const string IsRequired = "این مقدار نمی تواند خالی باشد!";
         public const string IsBetweenValue = " این مقدار می  بایست کمتر از مقدار تعیین شده وارد شود ";
+        public const string MaxFileSize = " حجم فایل بیشتر از 3 مگابایت می باشد  ";
     }
 }
