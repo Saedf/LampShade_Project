@@ -28,7 +28,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 x => new EditSlider
                 {
                     Id = x.Id,
-                    Picture = x.Picture,
+                 //   Picture = x.Picture,
                     Heading = x.Heading,
                     BtnText = x.BtnText,
                     PictureAlt = x.PictureAlt,

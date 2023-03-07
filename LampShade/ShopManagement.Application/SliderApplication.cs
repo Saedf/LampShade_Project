@@ -12,16 +12,18 @@ namespace ShopManagement.Application
     public class SliderApplication:ISliderApplication
     {
         private readonly ISliderRepository _sliderRepository;
-
-        public SliderApplication(ISliderRepository sliderRepository)
+        private readonly IFileUploader _fileUploader;
+        public SliderApplication(ISliderRepository sliderRepository, IFileUploader fileUploader)
         {
             _sliderRepository = sliderRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlider command)
         {
             var operation = new OperationResult();
-            var slider = new Slider(command.Picture, command.PictureTitle, command.PictureAlt,
+            var pictureName = _fileUploader.Upload(command.Picture, "slides");
+            var slider = new Slider(pictureName, command.PictureTitle, command.PictureAlt,
                 command.Heading, command.Title, command.Text, command.BtnText,command.Link);
             _sliderRepository.Create(slider);
             _sliderRepository.SaveChanges();
@@ -36,7 +38,9 @@ namespace ShopManagement.Application
             {
                 return operation.Faild(ApplicationMessage.RecordNotFound);
             }
-            slider.Edit(command.Picture,command.PictureTitle,command.PictureAlt,
+            var pictureName = _fileUploader.Upload(command.Picture, "slides");
+
+            slider.Edit(pictureName,command.PictureTitle,command.PictureAlt,
                 command.Heading,command.Title,command.Text,command.BtnText,command.Link);
             _sliderRepository.SaveChanges();
             return operation.Succeeded();

@@ -12,6 +12,7 @@ using ShopManagement.Application.Contract.ProductPicture;
 using ShopManagement.Application.Contract.Slider;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infrastructure.EfCore;
 using ShopManagement.Infrastructure.EfCore.Repository;

@@ -46,7 +46,7 @@ namespace ShopManagement.Application
         public OperationResult Edit(EditProduct command)
         {
             var operation=new OperationResult();
-            var product = _productRepository.GetBy(command.Id);
+            var product = _productRepository.GetProductWithCategory(command.Id);
             if (product==null)
             {
                 return operation.Faild(ApplicationMessage.RecordNotFound);
@@ -56,8 +56,8 @@ namespace ShopManagement.Application
             {
                 return operation.Faild(ApplicationMessage.DuplicatedRecord);
             }
-            var categorySlug = _categoryRepository.GetSlugBy(command.CategoryId);
-            var path = $"{categorySlug}//{command.Slug}";
+
+            var path = $"{product.Category.Slug}/{command.Slug}";
             var picturePath = _fileUploader.Upload(command.Picture, path);
 
             product.Edit(command.Name,command.Code,command.ShortDescription

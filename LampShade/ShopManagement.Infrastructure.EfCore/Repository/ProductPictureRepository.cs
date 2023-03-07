@@ -21,7 +21,7 @@ public class ProductPictureRepository:RepositoryBase<long,ProductPicture>,IProdu
             .Select(x=> new EditProductPicture
             {
                 Id = x.Id,
-                Picture = x.Picture,
+           //     Picture = x.Picture,
                 ProductId = x.ProductId,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
@@ -50,5 +50,12 @@ public class ProductPictureRepository:RepositoryBase<long,ProductPicture>,IProdu
         }
 
         return query.OrderByDescending(x => x.Id).ToList();
+    }
+
+    public ProductPicture GetPictureWithProductAndCategory(long id)
+    {
+        return _shopContext.ProductPictures.Include(x => x.Product)
+            .ThenInclude(x => x.Category)
+            .FirstOrDefault(x => x.Id== id);
     }
 }

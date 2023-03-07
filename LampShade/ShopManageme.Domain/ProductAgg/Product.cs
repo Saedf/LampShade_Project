@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using _01_Framework.Domain;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
@@ -15,6 +16,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string Code { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
+        
         public string Picture { get; private set; }
         public string PictureAlt { get; private set; }
         public string PictureTitle { get; private set; }
@@ -22,6 +24,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string KeyWords { get; private set; }
         public string MetaDescription { get; private set; }
         public long CategoryId { get; private set; }
+        
         public ProductCategory Category { get; private set; }
         public List<ProductPicture> ProductPictures { get; private set; }
         public Product(string name, string code, 

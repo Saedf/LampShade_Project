@@ -22,5 +22,9 @@ namespace _02_LampShadeQuery.Contracts.Product
         public bool HasDiscount { get; set; }
         public string DiscountExpireDate { get; set; }
         public string ShortDescription { get; set; }
+        public string Code { get; set; }
+        
+        public List<ProductPictureQueryModel> pictureQueryModels { get; set; }
+      //  public bool IsInStock { get; set; }
     }
 }

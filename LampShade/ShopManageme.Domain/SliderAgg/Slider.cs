@@ -33,7 +33,9 @@ namespace ShopManagement.Domain.SliderAgg
         }
         public void Edit(string picture, string pictureTitle, string pictureAlt, string heading, string title, string text, string btbText,string link)
         {
-            Picture = picture;
+            if (!string.IsNullOrWhiteSpace(picture))
+                Picture = picture;
+
             PictureTitle = pictureTitle;
             PictureAlt = pictureAlt;
             Heading = heading;
