@@ -121,3 +121,13 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceH
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.Core.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.pdb

@@ -193,7 +193,7 @@ namespace _02_LampShadeQuery.Contracts.Query
                     Message = x.Message,
                     Name = x.Name,
 
-                }).ToList();
+                }).OrderByDescending(x=>x.Id).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> productPictures)
