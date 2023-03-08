@@ -120,3 +120,4 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\refint\S
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
