@@ -48,6 +48,7 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
                 PublishDate = x.PublishDate.ToFarsi(),
                 Title = x.Title,
                 Category = x.Category.Name,
+                Picture = x.Picture,
                 Id = x.Id,
                 ShortDescription = x.ShortDescription
                     .Substring(0, Math.Min(x.ShortDescription.Length, 50)) + "...",
@@ -68,7 +69,8 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
 
         public Article GetArticleWithCategoryBy(long id)
         {
-            throw new NotImplementedException();
+            return _blogContext.Articles.Include(x => x.Category)
+                .FirstOrDefault(x => x.Id == id);
         }
     }
 }

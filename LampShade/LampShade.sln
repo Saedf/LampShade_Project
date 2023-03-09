@@ -73,13 +73,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BM.Infrastructure", "BM.Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Domain", "BlogManagement.Domain\BlogManagement.Domain.csproj", "{64521AFE-13B5-406E-BF4D-206050E26BB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Application", "BlogManagement.Application\BlogManagement.Application.csproj", "{473B70D9-E2EA-4E36-8953-1840078A3625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Application", "BlogManagement.Application\BlogManagement.Application.csproj", "{473B70D9-E2EA-4E36-8953-1840078A3625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Application.Contracts", "BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj", "{E469A3A7-7CB8-417B-9288-BAADBC2C7C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Application.Contracts", "BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj", "{E469A3A7-7CB8-417B-9288-BAADBC2C7C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Infrastructure.EfCore", "BlogManagement.Infrastructure.EfCore\BlogManagement.Infrastructure.EfCore.csproj", "{DD812F54-16F3-4583-B3D0-1DD393BA317A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Infrastructure.EfCore", "BlogManagement.Infrastructure.EfCore\BlogManagement.Infrastructure.EfCore.csproj", "{DD812F54-16F3-4583-B3D0-1DD393BA317A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Infrastructure.Core", "BlogManagement.Infrastructure.Core\BlogManagement.Infrastructure.Core.csproj", "{69CF7CDD-BE64-4C99-ACFB-79FBBBDE96E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Infrastructure.Core", "BlogManagement.Infrastructure.Core\BlogManagement.Infrastructure.Core.csproj", "{69CF7CDD-BE64-4C99-ACFB-79FBBBDE96E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

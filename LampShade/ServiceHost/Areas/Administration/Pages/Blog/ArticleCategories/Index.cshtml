@@ -28,7 +28,8 @@
                 <form class="form-inline" role="form" method="get">
                     <div class="form-group">
                         <label class="sr-only" asp-for="@Model.SearchModel.Name"></label>
-                        <input class="form-control" asp-for="@Model.SearchModel.Name" placeholder="نام گروه مقاله">
+                        <input class="form-control" asp-for="@Model.SearchModel.Name"
+                               placeholder="نام گروه مقاله">
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
@@ -67,7 +68,7 @@
                                         <td>@item.Name</td>
                                         <td>@item.Description</td>
                                         <td>@item.ShowOrder</td>
-                                        <td>CountArticle</td>
+                                        <td>@item.ArticleCount</td>
                                         <td>@item.CreationDate</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5"

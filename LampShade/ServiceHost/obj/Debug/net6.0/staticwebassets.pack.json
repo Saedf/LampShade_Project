@@ -1473,6 +1473,14 @@
       "PackagePath": "staticwebassets\\ProductPictures\\blazor-in-dotnetcore\\2023-03-09-08-13-28-3-600x800.jpg"
     },
     {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\blazor\\2023-03-09-09-21-18-3-600x800.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\blazor\\2023-03-09-09-21-18-3-600x800.jpg"
+    },
+    {
+      "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\blazor\\blazor-in-dot-net-core-7\\2023-03-09-21-07-19-10_1-600x800.jpg",
+      "PackagePath": "staticwebassets\\ProductPictures\\blazor\\blazor-in-dot-net-core-7\\2023-03-09-21-07-19-10_1-600x800.jpg"
+    },
+    {
       "Id": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\slides\\2023-03-06-19-19-16-slider1-eposi1-1820x785.jpg",
       "PackagePath": "staticwebassets\\ProductPictures\\slides\\2023-03-06-19-19-16-slider1-eposi1-1820x785.jpg"
     },
