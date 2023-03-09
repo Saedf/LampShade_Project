@@ -26,6 +26,10 @@ namespace BlogManagement.Infrastructure.EfCore.Mappings
             builder.Property(x => x.MetaDescription).HasMaxLength(500);
             builder.Property(x => x.KeyWords).HasMaxLength(100);
 
+            builder.HasMany(x => x.Articles)
+                .WithOne(x => x.Category)
+                .HasForeignKey(x => x.CategoryId);
+
 
 
         }

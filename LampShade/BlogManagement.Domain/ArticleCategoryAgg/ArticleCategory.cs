@@ -1,4 +1,5 @@
 ﻿using _01_Framework.Domain;
+using BlogManagement.Domain.ArticleAgg;
 
 namespace BlogManagement.Domain.ArticleCategoryAgg
 {
@@ -14,6 +15,8 @@ namespace BlogManagement.Domain.ArticleCategoryAgg
         public string KeyWords { get; private set; }
         public string MetaDescription { get; private set; }
         public string? CanonicalAddress { get; private set; }
+        public List<Article> Articles { get; private set; }
+        public int ArticleCount { get; private set; }
 
         public ArticleCategory(string name, string picture, string? pictureAlt, string? pictureTitle, string? description, int showOrder, string slug, string keyWords, string metaDescription, string? canonicalAddress)
         {
