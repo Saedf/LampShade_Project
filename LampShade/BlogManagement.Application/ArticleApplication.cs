@@ -57,7 +57,7 @@ namespace BlogManagement.Application
                 return operation.Faild(ApplicationMessage.RecordNotFound);
             }
 
-            if (_articleRepository.Exists(x => x.Title == command.Title))
+            if (_articleRepository.Exists(x => x.Title == command.Title && x.Id!=command.Id))
             {
                 return operation.Faild(ApplicationMessage.DuplicatedRecord);
             }

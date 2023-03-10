@@ -38,21 +38,37 @@ namespace _02_LampShadeQuery.Contracts.Query
                 .ToList();
         }
 
-        public ArticleQueryModel GetArticleDetails(long id)
+        public ArticleQueryModel GetArticleDetails(string slug)
         {
-            return _blogContext.Articles
+            var article=_blogContext.Articles
                 .Include(x => x.Category)
                 .Where(x => x.PublishDate <= DateTime.Now)
                 .Select(x => new ArticleQueryModel
                 {
+                    Id = x.Id,
                     Title = x.Title,
                     Slug = x.Slug,
                     Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     PublishDate = x.PublishDate.ToFarsi(),
-                    MetaDescription = x.MetaDescription
-                }).FirstOrDefault(x => x.Id == id);
+                    MetaDescription = x.MetaDescription,
+                    CategoryName = x.Category.Name,
+                    CategorySlug = x.Category.Slug,
+                    CanonicalAddress = x.CanonicalAddress,
+                    KeyWords = x.KeyWords,
+                    ShortDescription = x.ShortDescription,
+                    Description = x.Description
+
+                }).FirstOrDefault(x => x.Slug == slug);
+            if (!string.IsNullOrWhiteSpace(article.KeyWords))
+            {
+                article.KeyWordList = article.KeyWords.Split(",").ToList();
+            }
+
+            return article;
         }
+
+       
     }
 }

@@ -6880,6 +6880,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProductPictures\blazor\Design-Patterns\2023-03-10-08-32-52-1-1170x743.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProductPictures\blazor\Design-Patterns\2023-03-10-19-59-35-2-1170x743.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ServiceHost</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ServiceHost</BasePath>
+      <RelativePath>ProductPictures/blazor/Design-Patterns/2023-03-10-19-59-35-2-1170x743.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProductPictures\blazor\Design-Patterns\2023-03-10-19-59-35-2-1170x743.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ProductPictures\slides\2023-03-06-19-19-16-slider1-eposi1-1820x785.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ServiceHost</SourceId>

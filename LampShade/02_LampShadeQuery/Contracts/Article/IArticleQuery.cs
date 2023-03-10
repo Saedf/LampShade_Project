@@ -3,5 +3,6 @@
 public interface IArticleQuery
 {
     List<ArticleQueryModel> LatestArticles();
-    ArticleQueryModel GetArticleDetails(long id);
+    ArticleQueryModel GetArticleDetails(string slug);
+
 }

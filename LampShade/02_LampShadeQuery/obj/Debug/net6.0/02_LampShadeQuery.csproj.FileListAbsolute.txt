@@ -2,6 +2,9 @@ D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02_LampShadeQuery.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\02_LampShadeQuery.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\01_Framework.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Domain.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.dll
@@ -11,10 +14,13 @@ D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\In
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\ShopManagement.Application.Contract.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\ShopManagement.Domain.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\ShopManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\InventoryManagement.Infrustructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\ShopManagement.Infrastructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\01_Framework.pdb
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\InventoryManagement.Application.Contract.pdb
@@ -31,9 +37,3 @@ D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\refint\02_LampShadeQuery.dll
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\02_LampShadeQuery.pdb
 D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\obj\Debug\net6.0\ref\02_LampShadeQuery.dll
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Domain.dll
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.dll
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Infrastructure.EfCore.pdb
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
-D:\Programming\LampShade_Project\LampShade\02_LampShadeQuery\bin\Debug\net6.0\BlogManagement.Domain.pdb
