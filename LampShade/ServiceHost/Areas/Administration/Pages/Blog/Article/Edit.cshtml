@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label asp-for="Command.Title" class="control-label">نام</label>
+                                <label asp-for="@Model.Command.Title" class="control-label">نام</label>
                                 <input type="text" class="form-control" asp-for="Command.Title"
                                        onchange="makeSlug('Command.Title', 'Command.Slug')">
                                 <span asp-validation-for="Command.Title" class="error"></span>
@@ -118,7 +118,12 @@
                             </div>
                         </div>
                     </div>
-                    <input type="hidden" asp-for="Command.Id" value="Command.Id">
+                  @*  <div>
+                        <input type="hidden" asp-for="Id" value="@Model.Id"/>
+                    </div>*@
+                  <div>
+                        <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id">
+                  </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-b-5">ویرایش</button>
                     <a asp-page="./Index" class="btn btn-dark waves-effect waves-light m-b-5">بازگشت</a>
                 </form>

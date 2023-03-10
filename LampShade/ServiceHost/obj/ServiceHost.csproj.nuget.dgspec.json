@@ -119,6 +119,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj"
               },
@@ -385,6 +388,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },

@@ -179,6 +179,7 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Pages\Shared\Components\LatestArticles\" />
 	  <Folder Include="ProductPictures\" />
 	  <Folder Include="Pages\Shared\Components\Menu\" />
 	  <Folder Include="Pages\Shared\Components\Slider\" />
