@@ -60,7 +60,8 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
                     MetaDescription = x.MetaDescription,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
-                    Slug = x.Slug
+                    Slug = x.Slug,
+
 
                 }).FirstOrDefault();
             return query;
@@ -77,6 +78,7 @@ namespace BlogManagement.Infrastructure.EfCore.Repository
                     CreationDate = x.CreationDate.ToFarsi(),
                     Picture = x.Picture,
                     ShowOrder = x.ShowOrder,
+                    ArticleCount = x.Articles.Count
 
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
