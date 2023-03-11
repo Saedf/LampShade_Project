@@ -1,4 +1,4 @@
-﻿
+﻿@model _02_LampShadeQuery.MenuModel
 
 <div class="header-area header-sticky">
 <div class="container">
@@ -20,22 +20,19 @@
                 <li class="menu-item-has-children">
                     <a>محصولات</a>
                     <ul class="sub-menu">
-                        <li><a href="#">نگه دارنده</a></li>
-                        <li><a href="#">آباژور</a></li>
+                        @foreach (var item in @Model.ProductCategoryQueris)
+                        {
+                            <li><a asp-page="./ProductCategory" asp-route-id="@item.Slug">@item.Name</a></li>
+                        }
                     </ul>
                 </li>
                 <li class="menu-item-has-children">
                     <a href="blog-left-sidebar.html">مقالات</a>
                     <ul class="sub-menu">
-                        <li>
-                            <a href="blog-left-sidebar.html">مقاله1</a>
-                        </li>
-                        <li>
-                            <a href="blog-right-sidebar.html">مقاله2</a>
-                        </li>
-                        <li>
-                            <a href="blog-post-left-sidebar.html">مقاله3</a>
-                        </li>
+                        @foreach (var item in @Model.ArticleCategoryQueries)
+                        {
+                            <li><a asp-page="./ArticleCategory" asp-route-id="@item.Slug">@item.Name</a></li>
+                        }
                     </ul>
                 </li>
 

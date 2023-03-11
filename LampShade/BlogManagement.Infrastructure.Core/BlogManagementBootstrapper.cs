@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using _02_LampShadeQuery.Contracts.Article;
+﻿using _02_LampShadeQuery.Contracts.Article;
 using _02_LampShadeQuery.Contracts.ArticleCategory;
 using _02_LampShadeQuery.Contracts.Query;
+using _02_LampShadeQuery.Query;
 using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;

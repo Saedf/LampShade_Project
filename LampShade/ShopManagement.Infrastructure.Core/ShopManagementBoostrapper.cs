@@ -1,5 +1,4 @@
-﻿using _01_Framework.Domain;
-using _02_LampShadeQuery.Contracts.Product;
+﻿using _02_LampShadeQuery.Contracts.Product;
 using _02_LampShadeQuery.Contracts.ProductCategory;
 using _02_LampShadeQuery.Contracts.Query;
 using _02_LampShadeQuery.Contracts.Slider;

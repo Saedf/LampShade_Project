@@ -1,3 +1,5 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using _01_Framework.Application;
 using BlogManagement.Infrastructure.Core;
 using DiscountManagement.Infrastructure.Core;
@@ -17,6 +19,7 @@ InventoryManagementBootstrapper.Configure(builder.Services, connectionString);
 BlogManagementBootstrapper.Configure(builder.Services, connectionString);
 
 builder.Services.AddTransient<IFileUploader,FileUploader>();
+builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin,UnicodeRanges.Arabic));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -40,13 +40,13 @@
                             <div class="col-lg-12">
                                 <!--=======  shop page header  =======-->
                                 <div class="shop-header">
-                                    <div class="shop-header__left">
+                                   @* <div class="shop-header__left">
                                         <div class="shop-header__left__message">
                                             Showing 1 to 9 of 15 (2 Pages)
                                         </div>
-                                    </div>
+                                    </div>*@
 
-                                    <div class="shop-header__right">
+                                   @* <div class="shop-header__right">
 
                                         <div class="single-select-block d-inline-block">
                                             <span class="select-title">Show:</span>
@@ -67,7 +67,7 @@
                                                 <option value="4">Color</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div>*@
                                 </div>
                                 <!--=======  End of shop page header  =======-->
                             </div>
@@ -90,21 +90,21 @@
 
                                                         </div>
                                                         <a asp-page="./Product" asp-route-id="@product.Slug">
-                                                            <img src="@product.Picture" class="img-fluid"
+                                                            <img src="~/ProductPictures/@product.Picture" class="img-fluid"
                                                              alt="@product.PictureAlt" title="@product.PictureTitle">
                                                            @* <img src="assets/img/products/1_1-600x800.jpg" class="img-fluid"
                                                              alt="">*@
                                                         </a>
                                                     </div>
                                                     <div class="single-grid-product__content">
-                                                        <div class="single-grid-product__category-rating">
+                                                       @* <div class="single-grid-product__category-rating">
                                                             <span class="category">
                                                                 <a asp-page="./ProductCategory"
                                                                asp-route-id="@Model.ProductCategory.Slug">
                                                                     @Model.ProductCategory.Name
                                                                 </a>
                                                             </span>
-                                                        </div>
+                                                        </div>*@
 
                                                         <h2 class="single-grid-product__title">
                                                             <a asp-page="/Product" asp-route-id="@product.Slug">
@@ -139,7 +139,7 @@
                                 </div>
 
                                 <!--=======  pagination area =======-->
-                                <div class="pagination-area">
+                               @* <div class="pagination-area">
                                     <div class="pagination-area__left">
                                         Showing 1 to 9 of 11 (2 Pages)
                                     </div>
@@ -153,7 +153,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div>*@
                                 <!--=======  End of pagination area  =======-->
                                 <!--=======  End of shop page content  =======-->
                             </div>

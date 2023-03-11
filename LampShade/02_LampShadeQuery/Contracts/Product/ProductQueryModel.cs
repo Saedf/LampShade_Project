@@ -20,10 +20,11 @@ namespace _02_LampShadeQuery.Contracts.Product
         public string CategorySlug { get; set; }
         public string Slug { get; set; }
         public bool HasDiscount { get; set; }
+        public string Keywords { get; set; }
         public string DiscountExpireDate { get; set; }
         public string ShortDescription { get; set; }
         public string Code { get; set; }
-        
+        public string MetaDescription { get; set; }
         public List<ProductPictureQueryModel> pictureQueryModels { get; set; }
         public bool IsInStock { get; set; }
         public List<CommentQueryModel> commentQueryModels { get; set; }

@@ -1,6 +1,10 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ProductModel
 @{
+    ViewData["Title"] = Model.ProductQueryModel.Name;
+    ViewData["keywords"] = Model.ProductQueryModel.Keywords;
+    ViewData["metaDescription"] = Model.ProductQueryModel.MetaDescription;
+
 }
 <!--====================  breadcrumb area ====================-->
 <div class="breadcrumb-area section-space--half">
@@ -11,7 +15,7 @@
                 <div class="breadcrumb-wrapper breadcrumb-bg">
                     <!--=======  breadcrumb content  =======-->
                     <div class="breadcrumb-content">
-                        <h2 class="breadcrumb-content__title">@Model.ProductQueryModel.Name</h2>
+                        <h1 class="breadcrumb-content__title">@Model.ProductQueryModel.Name</h1>
                         <ul class="breadcrumb-content__page-map">
                             <li>
                                 <a asp-page="./Index">صفحه ی اصلی</a>
