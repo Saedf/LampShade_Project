@@ -2,6 +2,7 @@ using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _01_Framework.Application;
 using BlogManagement.Infrastructure.Core;
+using CommentManagement.Infrastructure.Core;
 using DiscountManagement.Infrastructure.Core;
 using InventoryManagement.Infrastructure.Core;
 using ServiceHost;
@@ -14,9 +15,10 @@ builder.Services.AddRazorPages();
 
 var connectionString = builder.Configuration.GetConnectionString("LampShadeDb");
 ShopManagementBoostrapper.Configure(builder.Services,connectionString);
-DiscountManagementBoostrapper.Configure(builder.Services, connectionString);
+DiscountManagementBootstrapper.Configure(builder.Services, connectionString);
 InventoryManagementBootstrapper.Configure(builder.Services, connectionString);
 BlogManagementBootstrapper.Configure(builder.Services, connectionString);
+CommentManagementBootstrapper.Configure(builder.Services,connectionString);
 
 builder.Services.AddTransient<IFileUploader,FileUploader>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin,UnicodeRanges.Arabic));

@@ -21,7 +21,7 @@
                                 <a asp-page="./Index">صفحه ی اصلی</a>
                             </li>
                             <li>
-                                <a asp-page="./ProdcutCategory"
+                                <a asp-page="./ProductCategory"
                                    asp-route-id="@Model.ProductQueryModel.CategorySlug">
                                     @Model.ProductQueryModel.Category
                                 </a>
@@ -307,7 +307,7 @@
                                                                         id="message"
                                                                         placeholder="نظر خود را بنویسید ..."></textarea>
                                                                 </div>
-                                                                <input type="hidden" name="productId" 
+                                                                <input type="hidden" name="ownerRecordId" 
                                                                        value="@Model.ProductQueryModel.Id"/>
                                                                 <input type="hidden" name="productSlug"
                                                                        value="@Model.ProductQueryModel.Slug"/>

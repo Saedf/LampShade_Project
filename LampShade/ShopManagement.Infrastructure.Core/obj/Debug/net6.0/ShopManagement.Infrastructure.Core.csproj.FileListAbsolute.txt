@@ -41,3 +41,9 @@ D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\ob
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\refint\ShopManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\ShopManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.pdb

@@ -131,3 +131,13 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\refint\S
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.Core.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.pdb

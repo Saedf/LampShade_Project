@@ -41,3 +41,9 @@ D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\ob
 D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\obj\Debug\net6.0\refint\BlogManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\obj\Debug\net6.0\BlogManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\obj\Debug\net6.0\ref\BlogManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\BlogManagement.Infrastructure.Core\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.pdb

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using _01_Framework.Application;
+﻿using _01_Framework.Application;
 using _02_LampShadeQuery.Contracts.Product;
+using CommentManagement.Domain.CommentAgg;
+using CommentManagement.Infrastructure.EfCore;
 using DiscountManagement.Infrastructure.EfCore;
 using InventoryManagement.Infrustructure.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
 
@@ -19,14 +15,15 @@ namespace _02_LampShadeQuery.Contracts.Query
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
-
+        private  readonly CommentContext _commentContext;
         public ProductQuery(ShopContext shopContext,
             InventoryContext inventoryContext,
-            DiscountContext discountContext)
+            DiscountContext discountContext, CommentContext commentContext)
         {
             _shopContext = shopContext;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
         public List<ProductQueryModel> GetLatestArrivals()
@@ -139,7 +136,7 @@ namespace _02_LampShadeQuery.Contracts.Query
             var product = _shopContext.Products
                 .Include(x => x.Category)
                 .Include(x => x.ProductPictures)
-                .Include(x => x.Comments)
+               // .Include(x => x.Comments)
                 .Select(product => new ProductQueryModel
                 {
                     Id = product.Id,
@@ -155,7 +152,7 @@ namespace _02_LampShadeQuery.Contracts.Query
                     MetaDescription = product.MetaDescription,
                     ShortDescription = product.ShortDescription,
                     pictureQueryModels = MapProductPictures(product.ProductPictures),
-                    commentQueryModels = MapComments(product.Comments)
+                 // commentQueryModels = MapComments(product.Comments)
                     // IsInStock = product.
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -181,22 +178,37 @@ namespace _02_LampShadeQuery.Contracts.Query
                 }
 
             }
-            return product;
-        }
 
-        private static List<CommentQueryModel> MapComments(List<Comment> productComments)
-        {
-            return productComments
-                .Where(x=>!x.IsCanceled)
-                .Where(x=>x.IsConfirmed)
+            product.commentQueryModels = _commentContext.Comments
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.OwnerRecordId == product.Id)
                 .Select(x => new CommentQueryModel
                 {
                     Id = x.Id,
                     Message = x.Message,
                     Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
+                    
+                }).OrderByDescending(x => x.Id).ToList();
 
-                }).OrderByDescending(x=>x.Id).ToList();
+            return product;
         }
+
+        //private static List<CommentQueryModel> MapComments(List<Comment> productComments)
+        //{
+        //    return productComments
+        //        .Where(x=>!x.IsCanceled)
+        //        .Where(x=>x.IsConfirmed)
+        //        .Select(x => new CommentQueryModel
+        //        {
+        //            Id = x.Id,
+        //            Message = x.Message,
+        //            Name = x.Name,
+
+        //        }).OrderByDescending(x=>x.Id).ToList();
+        //}
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> productPictures)
         {
