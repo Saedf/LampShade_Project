@@ -1,6 +1,6 @@
 ﻿using _01_Framework.Application;
+using _02_LampShadeQuery.Contracts.Comment;
 using _02_LampShadeQuery.Contracts.Product;
-using CommentManagement.Domain.CommentAgg;
 using CommentManagement.Infrastructure.EfCore;
 using DiscountManagement.Infrastructure.EfCore;
 using InventoryManagement.Infrustructure.EfCore;

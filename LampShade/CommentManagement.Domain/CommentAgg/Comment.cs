@@ -6,7 +6,7 @@ namespace CommentManagement.Domain.CommentAgg
     {
         public string Name { get; private set; }
         public string Email { get; private set; }
-        public string WebSite { get; private set; }
+        public string? WebSite { get; private set; }
         public string Message { get; private set; }
         public bool IsConfirmed { get; private set; }
         public bool IsCanceled { get; private set; }

@@ -15,7 +15,10 @@ namespace CommentManagement.Infrastructure.EfCore.Mappings
             builder.Property(x => x.Name).HasMaxLength(500);
             builder.Property(x => x.Email).HasMaxLength(500);
             builder.Property(x => x.Message).HasMaxLength(1000);
+            builder.Property(x => x.WebSite).HasMaxLength(500);
             
+
+
 
         }
     }

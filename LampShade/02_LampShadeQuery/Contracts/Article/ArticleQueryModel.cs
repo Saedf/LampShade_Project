@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using _02_LampShadeQuery.Contracts.Product;
+using _02_LampShadeQuery.Contracts.Comment;
 
 namespace _02_LampShadeQuery.Contracts.Article
 {

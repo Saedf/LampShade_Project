@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using _01_Framework.Application;
 using _02_LampShadeQuery.Contracts.Article;
+using _02_LampShadeQuery.Contracts.Comment;
 using BlogManagement.Infrastructure.EfCore;
+using CommentManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace _02_LampShadeQuery.Contracts.Query
@@ -13,10 +15,12 @@ namespace _02_LampShadeQuery.Contracts.Query
     public class ArticleQuery:IArticleQuery
     {
         private readonly BlogContext _blogContext;
+        private readonly CommentContext _commentContext;
 
-        public ArticleQuery(BlogContext blogContext)
+        public ArticleQuery(BlogContext blogContext, CommentContext commentContext)
         {
             _blogContext = blogContext;
+            _commentContext = commentContext;
         }
 
         public List<Article.ArticleQueryModel> LatestArticles()
@@ -66,6 +70,29 @@ namespace _02_LampShadeQuery.Contracts.Query
                 article.KeyWordList = article.KeyWords.Split(",").ToList();
             }
 
+            var comments = _commentContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Article)
+                .Where(x => x.OwnerRecordId == article.Id)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Message = x.Message,
+                    Name = x.Name,
+                    ParentId = x.ParentId,
+                    CreationDate = x.CreationDate.ToFarsi(),
+                }).OrderByDescending(x => x.Id).ToList();
+            foreach (var comment in comments)
+            {
+                if (comment.ParentId>0)
+                {
+                    comment.parentName = comments.FirstOrDefault(x => x.Id == comment.ParentId)
+                        ?.Name;
+                }
+            }
+
+            article.Comments = comments;
             return article;
         }
 

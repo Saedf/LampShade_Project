@@ -28,9 +28,9 @@ namespace CommentManagement.Infrastructure.EfCore.Repository
                     Id = x.Id,
                     Name = x.Name,
                     Email = x.Email,
-                    WebSite = x.WebSite,
+                  WebSite = x.WebSite,
                     Message = x.Message,
-                    OwnerRecordId = x.OwnerRecordId,
+                   OwnerRecordId = x.OwnerRecordId,
                     Type = x.Type,
                     IsCanceled = x.IsCanceled,
                     IsConfirmed = x.IsConfirmed,
@@ -43,12 +43,7 @@ namespace CommentManagement.Infrastructure.EfCore.Repository
             if (!string.IsNullOrWhiteSpace(searchModel.Email))
                 query = query.Where(x => x.Email.Contains(searchModel.Email));
 
-            if (query!=null)
-            {
-                return query.OrderByDescending(x => x.Id).ToList();
-            }
-            return new List<CommentViewModel>();
-           // return  query.OrderByDescending(x => x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).ToList();
         }
     }
 }
