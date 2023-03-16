@@ -25,8 +25,15 @@ namespace AccountManagement.Domain.AccountAgg
             Password = password;
             Mobile = mobile;
             ProfilePhoto = profilePhoto;
-            RoleId = roleId;
-
+            
+            if (roleId==0)
+            {
+                RoleId = 2;
+            }
+            else
+            {
+                RoleId = roleId;
+            }
         }
 
         // public Account(string fullName, string userName, string password, string mobile, string profilePhoto)

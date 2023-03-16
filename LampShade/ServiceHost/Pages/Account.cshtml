@@ -69,6 +69,12 @@
                                 </form>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+                                @if (Model.RegisterMessage!=null)
+                                {
+                                    <div class="alert alert-danger">
+                                        @Model.RegisterMessage
+                                    </div>
+                                }
                                 <form method="post" asp-page-handler="Register">
 
                                     <div class="login-form">
@@ -85,17 +91,17 @@
                                             </div>
                                             <div class="col-md-12 mb-20">
                                                 <label>موبایل</label>
-                                                <input type="email" name="mobile" placeholder="موبایل">
+                                                <input type="number" name="mobile" placeholder="موبایل">
                                             </div>
                                             <div class="col-md-6 mb-20">
                                                 <label>کلمه ی عبور</label>
-                                                <input type="password" name="password" 
+                                                <input type="password" name="password"
                                                        placeholder="کلمه ی عبور">
                                             </div>
-                                            @*<div class="col-md-6 mb-20">
-                                                <label>Confirm Password</label>
-                                                <input type="password" placeholder="Confirm Password">
-                                            </div>*@
+                                            <div class="col-md-6 mb-20">
+                                                <label>تکرار کلمه ی عبور</label>
+                                                <input type="password" name="rePassword" placeholder="تایید کلمه عبور">
+                                            </div>
                                             <div class="col-12">
                                                 <button class="register-button mt-0">ثبت نام</button>
                                             </div>

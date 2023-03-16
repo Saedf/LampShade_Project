@@ -8,6 +8,8 @@ namespace ServiceHost.Pages
     {
         [TempData]
         public string LoginMessage { get; set; }
+        [TempData]
+        public string RegisterMessage { get; set; }
         private readonly IAccountApplication _accountApplication;
 
         public AccountModel(IAccountApplication accountApplication)
@@ -29,6 +31,16 @@ namespace ServiceHost.Pages
                 return RedirectToPage("./Index");
             }
             LoginMessage=result.Message;
+            return RedirectToPage("/Account");
+        }
+        public IActionResult OnPostRegister(RegisterAccount command)
+        {
+            var result = _accountApplication.Register(command);
+            if (result.IsSucceeded)
+            {
+                return RedirectToPage("./Account");
+            }
+            RegisterMessage = result.Message;
             return RedirectToPage("/Account");
         }
     }
