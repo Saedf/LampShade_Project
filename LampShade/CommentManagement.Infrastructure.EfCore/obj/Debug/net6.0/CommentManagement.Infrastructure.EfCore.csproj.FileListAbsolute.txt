@@ -1,8 +1,3 @@
-D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
-D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
-D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
-D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.AssemblyInfo.cs
-D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.deps.json
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.runtimeconfig.json
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\CommentManagement.Infrastructure.EfCore.dll
@@ -13,6 +8,11 @@ D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCo
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\CommentManagement.Domain.pdb
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\01_Framework.pdb
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.csproj.AssemblyReference.cache
+D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.AssemblyInfoInputs.cache
+D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.AssemblyInfo.cs
+D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.csproj.CoreCompileInputs.cache
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.csproj.CopyComplete
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\CommentManagement.Infrastructure.EfCore.dll
 D:\Programming\LampShade_Project\LampShade\CommentManagement.Infrastructure.EfCore\obj\Debug\net6.0\refint\CommentManagement.Infrastructure.EfCore.dll

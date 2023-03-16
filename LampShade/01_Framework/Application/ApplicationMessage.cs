@@ -10,5 +10,7 @@ namespace _01_Framework.Application
     {
         public static string DuplicatedRecord = "امکان درج مقدار تکراری وجود ندارد.لطفا مجددا تلاش بفرمایید";
         public static string RecordNotFound = "اطلاعات درخواست شده یافت نشد. لطفا مجددا تلاش بفرمایید";
+        public static string PasswordDosntMatch = "پسورد ها همخوانی ندارد";
+        public static string WrongUserPass = "نام کاربری یا کلمه ی عبور اشتباه می باشد";
     }
 }
