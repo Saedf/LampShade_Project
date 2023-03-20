@@ -1,5 +1,6 @@
 ﻿
 using System.Security.Claims;
+using _01_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -48,6 +49,33 @@ namespace _01_Framework.Application
                  CookieAuthenticationDefaults.AuthenticationScheme,
                  new ClaimsPrincipal(claimsIdentity), authProperties);
 
+        }
+
+        public string? CurrentAccountRole()
+        {
+            if (IsAuthenticated())
+            {
+                return _contextAccessor.HttpContext.User
+                    .Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value;
+            }
+
+            return null;
+        }
+
+        public AuthViewModel currentAccountInfo()
+        {
+            var result=new AuthViewModel();
+            if (!IsAuthenticated())
+            {
+                return result;
+            }
+            var claims=_contextAccessor.HttpContext.User.Claims.ToList();
+            result.Id = Convert.ToInt64(claims.FirstOrDefault(x => x.Type == "AccountId").Value);
+            result.UserName = claims.FirstOrDefault(x => x.Type == "UserName").Value;
+            result.RoleId = Convert.ToInt64(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
+            result.FullName = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value;
+            result.Role = Roles.GetRoleBy(result.RoleId);
+            return result;
         }
     }
 }

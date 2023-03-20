@@ -32,6 +32,9 @@ namespace AccountManagement.Infrastructure.EfCore.Repository
                 UserName = x.UserName,
                 FullName = x.FullName,
                 Mobile = x.Mobile,
+                Password = x.Password,
+                RoleId = x.RoleId
+             //   ProfilePhoto = x.ProfilePhoto
 
             }).FirstOrDefault(x => x.Id == id);
         }
@@ -59,7 +62,7 @@ namespace AccountManagement.Infrastructure.EfCore.Repository
                     FullName = x.FullName,
                     ProfilePhoto = x.ProfilePhoto,
                     RoleId = x.RoleId,
-                    
+                    Role = x.Role.Name
 
             });
             if (!string.IsNullOrWhiteSpace(searchModel.FullName))
