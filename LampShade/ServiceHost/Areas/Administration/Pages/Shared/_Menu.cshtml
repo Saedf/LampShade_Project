@@ -3,7 +3,7 @@
 
 @inject IAuthHelper AuthHelper;
 @{
-    var currentAccount = AuthHelper.currentAccountInfo();
+    var accountInfo = AuthHelper.currentAccountInfo();
 }
 <div class="left side-menu">
     <div class="sidebar-inner slimscrollleft">
@@ -13,7 +13,7 @@
             </div>
             <div class="user-info">
                 <div class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@currentAccount.FullName <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@accountInfo.FullName <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
                         <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
@@ -22,7 +22,7 @@
                     </ul>
                 </div>
 
-                <p class="text-muted m-0">@currentAccount.Role</p>
+                <p class="text-muted m-0">@accountInfo.Role</p>
             </div>
         </div>
         <!--- Divider -->
