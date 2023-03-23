@@ -17,13 +17,15 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IRoleRepository _roleRepository;
         private readonly IAuthHelper _authHelper;
-        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUploader fileUploader, IRoleRepository roleRepository, IAuthHelper authHelper)
+        private readonly IRoleRepository _repository;
+        public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUploader fileUploader, IRoleRepository roleRepository, IAuthHelper authHelper, IRoleRepository repository)
         {
             _accountRepository = accountRepository;
             _passwordHasher = passwordHasher;
             _fileUploader = fileUploader;
             _roleRepository = roleRepository;
             _authHelper = authHelper;
+            _repository = repository;
         }
 
         public OperationResult Register(RegisterAccount command)
@@ -102,8 +104,13 @@ namespace AccountManagement.Application
             {
                 return operation.Faild(ApplicationMessage.WrongUserPass);
             }
+
+            var permissions = _repository.GetBy(account.RoleId)
+                .Permissions
+                .Select(x => x.Code)
+                .ToList();
             var authViewModel=new AuthViewModel(account.Id,account.RoleId,account.FullName,account.UserName
-            ,account.Mobile);
+            ,account.Mobile,permissions);
             _authHelper.SignIn(authViewModel);
 
             return operation.Succeeded();

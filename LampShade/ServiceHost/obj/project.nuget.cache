@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "51QLf7uB5Ev1QcE9zUvYGqx9lBz1OkSXF5l+NL5y2uAdbMlaSMR+1ZCmlp4SYFCtEC4EchTV3ewN3om5Ahsz7w==",
+  "dgSpecHash": "FqAVM1B3mN1LOOR/FhSc3shd4D1QiouI2yWav2sAVs5Ea0hfIxxw+o25e1QjN76b2WF39NYHMryMMahztV3UYA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

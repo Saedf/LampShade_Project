@@ -16,11 +16,14 @@ namespace ServiceHost.Pages
         {
             _accountApplication = accountApplication;
         }
+        public void OnGet()
+        {
+        }
 
         public IActionResult OnGetLogout()
         {
             _accountApplication.Logout();
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Index");
         }
 
         public IActionResult OnPostLogin(Login command)
@@ -28,7 +31,7 @@ namespace ServiceHost.Pages
             var result = _accountApplication.Login(command);
             if (result.IsSucceeded)
             {
-                return RedirectToPage("./Index");
+                return RedirectToPage("/Index");
             }
             LoginMessage=result.Message;
             return RedirectToPage("/Account");
@@ -38,7 +41,7 @@ namespace ServiceHost.Pages
             var result = _accountApplication.Register(command);
             if (result.IsSucceeded)
             {
-                return RedirectToPage("./Account");
+                return RedirectToPage("/Account");
             }
             RegisterMessage = result.Message;
             return RedirectToPage("/Account");

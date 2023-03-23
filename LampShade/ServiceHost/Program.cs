@@ -52,7 +52,19 @@ builder.Services.AddAuthorization(options =>
         options.AddPolicy("Inventory", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
     }
 );
-builder.Services.AddRazorPages(options =>
+//builder.Services.AddRazorPages()
+//    .AddMvcOptions(options => options.Filters.Add(new SecurityPageFilter()))
+//    .AddRazorPagesOptions(options =>
+//{
+//    options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+//    options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");
+//    options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
+//    options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
+//    options.Conventions.AuthorizeAreaFolder("Administration", "/Inventory", "Inventory");
+//});
+builder.Services.AddRazorPages()
+    .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
+    .AddRazorPagesOptions(options =>
 {
     options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
     options.Conventions.AuthorizeAreaFolder("Administration", "/Shop", "Shop");

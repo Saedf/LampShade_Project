@@ -1,11 +1,10 @@
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\appsettings.Development.json
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\appsettings.json
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.staticwebassets.runtime.json
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.exe
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.deps.json
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.runtimeconfig.json
-D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.dll
-D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Azure.Core.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Azure.Identity.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Humanizer.dll
@@ -37,6 +36,7 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsof
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.CodeDom.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -150,4 +150,5 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceH
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\refint\ServiceHost.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll

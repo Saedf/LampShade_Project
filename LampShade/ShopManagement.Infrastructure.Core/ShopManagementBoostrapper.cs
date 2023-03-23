@@ -1,4 +1,5 @@
-﻿using _02_LampShadeQuery.Contracts.Product;
+﻿using _01_Framework.Infrastructure;
+using _02_LampShadeQuery.Contracts.Product;
 using _02_LampShadeQuery.Contracts.ProductCategory;
 using _02_LampShadeQuery.Contracts.Query;
 using _02_LampShadeQuery.Contracts.Slider;
@@ -13,6 +14,7 @@ using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SliderAgg;
+using ShopManagement.Infrastructure.Core.Permissions;
 using ShopManagement.Infrastructure.EfCore;
 using ShopManagement.Infrastructure.EfCore.Repository;
 
@@ -39,6 +41,10 @@ namespace ShopManagement.Infrastructure.Core
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             services.AddTransient<IProductQuery, ProductQuery>();
+            
+            services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
+
+
 
            
 

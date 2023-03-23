@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aTPbL7seB6v8zw6me6GuZJRAusyuABDrqXcxG10zRux00CQxBcuf9ItdbOZdgXCO4LBA3nXOpGK5cHnxfnKlDA==",
+  "dgSpecHash": "Lmw/B8UfYb7yLOdJC4MqlhZ6IHcJNhB1Dkh2yAAGTxgGbxuqoL8GGhh812YmO/zmAhtrANY+ahC31ncZ+1Py4g==",
   "success": true,
   "projectFilePath": "D:\\Programming\\LampShade_Project\\LampShade\\AccountMangement.Infrastructure.Core\\AccountManagement.Infrastructure.Core.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",

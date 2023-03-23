@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "On53H+migAUauhWnaH/zsh6fZuEW3WMqMgFkpouP2OY=",
+  "Hash": "+3qnBrb+Jy+niXtzhx93jM262+0RVam9MMnIHNiLBNY=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -7903,6 +7903,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-1\\2023-03-07-20-22-48-7_1-600x800.jpg"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-1\\2023-03-23-18-30-48-profile-6.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/اتاق-خواب/اتاق-خواب-1/2023-03-23-18-30-48-profile-6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-1\\2023-03-23-18-30-48-profile-6.png"
+    },
+    {
+      "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-1\\2023-03-23-18-31-53-4_1-600x800.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/اتاق-خواب/اتاق-خواب-1/2023-03-23-18-31-53-4_1-600x800.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-1\\2023-03-23-18-31-53-4_1-600x800.jpg"
     },
     {
       "Identity": "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\wwwroot\\ProductPictures\\اتاق-خواب\\اتاق-خواب-2\\2023-03-05-21-33-00-product-3-80x106.jpg",

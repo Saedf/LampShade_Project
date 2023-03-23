@@ -38,12 +38,18 @@ namespace AccountManagement.Infrastructure.EfCore.Repository
                 .Select(x => new EditRole
                 {
                     Id = x.Id,
-                    Name = x.Name
+                    Name = x.Name,
+                    MappedPermissions = MapPermissions(x.Permissions)
                 }).AsNoTracking()
                 .FirstOrDefault(x=>x.Id==id);
-
+            role.Permissions = role.MappedPermissions.Select(x => x.Code).ToList();
             return role;
 
+        }
+
+        private static List<PermissionDto> MapPermissions(List<Permission> permissions)
+        {
+            return permissions.Select(x => new PermissionDto(x.Code, x.Name)).ToList();
         }
     }
 }

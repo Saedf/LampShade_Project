@@ -1,8 +1,10 @@
-﻿using DiscountManagement.Application;
+﻿using _01_Framework.Infrastructure;
+using DiscountManagement.Application;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
 using DiscountManagement.Domain.CustomerDiscountAgg;
+using DiscountManagement.Infrastructure.Core.Permissions;
 using DiscountManagement.Infrastructure.EfCore;
 using DiscountManagement.Infrastructure.EfCore.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +22,7 @@ namespace DiscountManagement.Infrastructure.Core
 
             services.AddTransient<IColleagueDiscountRepository, ColleagueDiscountRepository>();
             services.AddTransient<IColleagueDiscountApplication, ColleagueDiscountApplication>();
+            services.AddTransient<IPermissionExposer, DiscountPermissionExposer>();
 
             services.AddDbContext<DiscountContext>(x=>x.UseSqlServer(connectionString));
         }

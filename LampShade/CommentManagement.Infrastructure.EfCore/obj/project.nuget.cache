@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "diOb6mrvO4zsHq4D+87XdqH+3AGxeJ/L/mGZPCSdZjlVt8QDEeIMtCGkTHWvOTKbfEok289hRSbRtxWvHe5grg==",
+  "dgSpecHash": "GziXKbHX8ySDPy/LxjLzSzXkAnF5In+jEvMusrrwmUWGnPXHWwNSSzBH1pznAo9ePPA9OpE+MYrg3ByQ7p9/tg==",
   "success": true,
   "projectFilePath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

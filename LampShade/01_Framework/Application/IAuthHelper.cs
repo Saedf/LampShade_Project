@@ -7,5 +7,6 @@
         void SignIn(AuthViewModel account);
         string? CurrentAccountRole();
         AuthViewModel currentAccountInfo();
+        List<int> GetPermissions();
     }
 }
