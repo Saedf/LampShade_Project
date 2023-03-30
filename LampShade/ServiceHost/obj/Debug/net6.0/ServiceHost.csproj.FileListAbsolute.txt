@@ -5,6 +5,7 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceH
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.exe
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.deps.json
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.runtimeconfig.json
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Azure.Core.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Azure.Identity.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Humanizer.dll
@@ -18,12 +19,14 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsof
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -36,6 +39,7 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsof
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Nancy.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.CodeDom.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
@@ -150,5 +154,4 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceH
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\refint\ServiceHost.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
-D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll

@@ -1,15 +1,19 @@
 ﻿using _01_Framework.Infrastructure;
+using _02_LampShadeQuery.Contracts;
 using _02_LampShadeQuery.Contracts.Product;
 using _02_LampShadeQuery.Contracts.ProductCategory;
 using _02_LampShadeQuery.Contracts.Query;
 using _02_LampShadeQuery.Contracts.Slider;
+using _02_LampShadeQuery.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.Contract.Order;
 using ShopManagement.Application.Contract.Product;
 using ShopManagement.Application.Contract.ProductCategory;
 using ShopManagement.Application.Contract.ProductPicture;
 using ShopManagement.Application.Contract.Slider;
+using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -41,12 +45,17 @@ namespace ShopManagement.Infrastructure.Core
             services.AddTransient<ISliderQuery, SliderQuery>();
             services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             services.AddTransient<IProductQuery, ProductQuery>();
-            
+
+            services.AddTransient<ICartCalculatorService, CartCalculateService>();
             services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 
+            services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient<IOrderApplication, OrderApplication>();
+
+            services.AddSingleton<ICartService, CartService>();
 
 
-           
+
 
         }
 

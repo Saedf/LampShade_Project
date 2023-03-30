@@ -104,7 +104,12 @@ namespace _01_Framework.Application
         public static string ToMoney(this decimal myMoney)
         {
             return myMoney.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
+        } 
+        public static string ToMoney(this double myMoney)
+        {
+            return myMoney.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
         }
+        
 
         public static string ToFileName(this DateTime date)
         {

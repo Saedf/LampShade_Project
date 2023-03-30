@@ -5,6 +5,7 @@ using CommentManagement.Infrastructure.EfCore;
 using DiscountManagement.Infrastructure.EfCore;
 using InventoryManagement.Infrustructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contract.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
 
@@ -166,6 +167,7 @@ namespace _02_LampShadeQuery.Contracts.Query
             {
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
+                product.DecimalPrice = price;
                 var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
                 if (discount != null)
                 {
@@ -194,6 +196,20 @@ namespace _02_LampShadeQuery.Contracts.Query
                 }).OrderByDescending(x => x.Id).ToList();
 
             return product;
+        }
+
+        public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+        {
+            var inventory = _inventoryContext.Inventory.ToList();
+            foreach (var cartItem in cartItems.Where(
+                         cartitem=>inventory.Any(x=>x.ProductId==cartitem.Id && x.InStuck)))
+            {
+                var iteminventory = inventory.Find(x => x.ProductId == cartItem.Id);
+                cartItem.IsInStock = iteminventory.CalculateCurrentCount() >= cartItem.Count;
+
+            }
+
+            return cartItems;
         }
 
         //private static List<CommentQueryModel> MapComments(List<Comment> productComments)

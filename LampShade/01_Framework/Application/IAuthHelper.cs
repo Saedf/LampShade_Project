@@ -8,5 +8,6 @@
         string? CurrentAccountRole();
         AuthViewModel currentAccountInfo();
         List<int> GetPermissions();
+        long CurrentAccountId();
     }
 }

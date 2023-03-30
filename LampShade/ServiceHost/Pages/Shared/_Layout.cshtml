@@ -13,8 +13,8 @@
     {
         <title>فروشگاه لوازم دکوری</title>
     }
-    <meta name="keywords" content="@ViewData["keywords"]"/>
-    <meta name="descriprion" content="@ViewData["metaDescription"]"/>
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta name="descriprion" content="@ViewData["metaDescription"]" />
     <!-- Vendor CSS -->
     <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
     <!-- Main CSS -->
@@ -25,15 +25,12 @@
 
 <body>
     <!--====================  header area ====================-->
-@await Component.InvokeAsync("Menu");
-<!--====================  End of header area  ====================-->
+    @await Component.InvokeAsync("Menu");
+    <!--====================  End of header area  ====================-->
+    @RenderBody()
 
-
-      @RenderBody()
-   
     <!--====================  End of footer area  ====================-->
-
-@await Component.InvokeAsync("Footer");
+    @await Component.InvokeAsync("Footer");
 
     <div class="search-overlay" id="search-overlay">
         <a href="javascript:void(0)" class="close-search-overlay" id="close-search-overlay">
@@ -59,12 +56,17 @@
     </div>
     <!-- end of scroll to top -->
     <!-- Vendor JS -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/Theme/assets/js/vendors.js"></script>
+    <script src="~/Theme/assets/js/active.js"></script>
+    <script src="~/Theme/assets/js/custom.js"></script>
+    <script src="~/Theme/assets/js/plugins.js"></script>
 
-    <!-- Active JS -->
-<script src="~/Theme/assets/js/active.js"></script>
-
-    @RenderSection("Scripts", false)
+    <script>
+        $(document).ready(function () {
+            updateCart();
+        });
+    </script>
 
 </body>
 
