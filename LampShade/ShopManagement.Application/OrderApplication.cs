@@ -48,5 +48,10 @@ namespace ShopManagement.Application
             _orderRepository.SaveChanges();
             return issueTrackingNo;
         }
+
+        public decimal GetAmountBy(long id)
+        {
+            return _orderRepository.GetAmountBy(id);
+        }
     }
 }

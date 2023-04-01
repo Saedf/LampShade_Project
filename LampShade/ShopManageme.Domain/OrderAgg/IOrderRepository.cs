@@ -4,5 +4,5 @@ namespace ShopManagement.Domain.OrderAgg;
 
 public interface IOrderRepository:IRepository<long,Order>
 {
-
+    decimal GetAmountBy(long id);
 }

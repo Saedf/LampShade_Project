@@ -5,9 +5,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Nancy.Json;
 using ShopManagement.Application.Contract.Order;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ServiceHost.Pages
 {
+    [Authorize]
     public class CartModel : PageModel
     {
         public List<CartItem> CartItems;

@@ -16,5 +16,13 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
         {
             _shopContext = context;
         }
+
+        public decimal GetAmountBy(long id)
+        {
+            var order = _shopContext.Orders.
+                Select(x=>new {x.PayAmount,x.Id})
+                .FirstOrDefault(o => o.Id == id);
+            return order?.PayAmount ?? 0;
+        }
     }
 }

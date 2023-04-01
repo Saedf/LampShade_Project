@@ -10,5 +10,6 @@ namespace ShopManagement.Application.Contract.Order
     {
         long PlaceOrder(Cart  cart);
         string PaymentSucceeded(long orderId,long refId);
+        decimal GetAmountBy(long id);
     }
 }

@@ -20,7 +20,9 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Nancy" Version="2.0.0" />
+		<PackageReference Include="RestSharp" Version="109.0.1" />
+		<PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="109.0.1" />
 	</ItemGroup>
 	
 </Project>

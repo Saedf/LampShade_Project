@@ -1,6 +1,7 @@
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using _01_Framework.Application;
+using _01_Framework.Application.ZarinPal;
 using _01_Framework.Infrastructure;
 using AccountManagement.Infrastructure.Core;
 using BlogManagement.Infrastructure.Core;
@@ -30,6 +31,7 @@ builder.Services.AddTransient<IFileUploader, FileUploader>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddTransient<IAuthHelper, AuthHelper>();
+builder.Services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
