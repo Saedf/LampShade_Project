@@ -1,7 +1,4 @@
-﻿
-using System.Net.Http.Json;
-using System.Security.Claims;
-using System.Text.Json.Serialization;
+﻿using System.Security.Claims;
 using _01_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;

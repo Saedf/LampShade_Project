@@ -17,10 +17,12 @@ using ShopManagement.Domain.OrderAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.Services;
 using ShopManagement.Domain.SliderAgg;
 using ShopManagement.Infrastructure.Core.Permissions;
 using ShopManagement.Infrastructure.EfCore;
 using ShopManagement.Infrastructure.EfCore.Repository;
+using ShopManagement.Infrastructure.InventoryACL;
 
 namespace ShopManagement.Infrastructure.Core
 {
@@ -52,8 +54,10 @@ namespace ShopManagement.Infrastructure.Core
             services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddTransient<IOrderApplication, OrderApplication>();
 
-            services.AddSingleton<ICartService, CartService>();
+            
 
+            services.AddSingleton<ICartService, CartService>();
+            services.AddTransient<IShopInventoryAcl, ShopInventoryAcl>();
 
 
 

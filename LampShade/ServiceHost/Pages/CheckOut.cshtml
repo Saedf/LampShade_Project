@@ -1,6 +1,7 @@
 ﻿@page
 @using _01_Framework.Application
 @using Microsoft.AspNetCore.Mvc.TagHelpers
+@using ShopManagement.Application.Contract
 @model ServiceHost.Pages.CheckOutModel
 @{
     ViewData["Title"] = "تایید سبد خرید و پرداخت";
@@ -86,19 +87,28 @@
                             </div>
 
                             <div class="row">
-                                @*<div class="col-lg-6 col-12 d-flex">
+                                <div class="col-lg-6 col-12 d-flex">
                                     <div class="checkout-payment-method">
                                         <h4>نحوه پرداخت</h4>
-                                        @foreach (var method in PaymentMethod.GetList())
-                                        {
-                                            <div class="single-method">
-                                                <input type="radio" id="payment_@method.Id" name="paymentMethod" value="@method.Id" @(PaymentMethod.GetList().First().Id == method.Id ? "checked" : "")>
-                                                <label for="payment_@method.Id">@method.Name</label>
-                                                <p data-method="@method.Id" style="display:@(PaymentMethod.GetList().First().Id == method.Id ? "block" : "none")">@method.Description</p>
-                                            </div>
-                                        }
+                                       @foreach (var method in PaymentMethod.GetList())
+                                       {
+                                           <div class="single-method">
+                                               <input type="radio" id="payment_@method.Id" 
+                                                      name="paymentMethod" value="@method.Id"
+                                                @(PaymentMethod.GetList().First().Id == method.Id ? "checked" :"")>
+                                               <label for="payment_@method.Id">@method.Name</label>
+                                               <p data-method="@method.Id"
+                                                  style="display:@(PaymentMethod.GetList().First().Id==method.Id ?"block":"none")">@method.Description</p>
+                                           </div>
+                                       }
+                                       @* <div class="single-method">
+                                            <input type="radio" id="payment_online" 
+                                                   name="paymentMethod" value="2" >
+                                            <label for="payment_cash">پرداخت نقدی</label>
+                                            <p data-method="2">تحویل کالا</p>
+                                        </div>*@
                                     </div>
-                                </div>*@
+                                </div>
                                 <div class="col-lg-6 col-12 d-flex">
                                     <div class="cart-summary">
                                         <div class="cart-summary-wrap">

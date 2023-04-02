@@ -2,11 +2,7 @@
 
 using Microsoft.Extensions.Configuration;
 using RestSharp;
-using RestSharp.Serializers.Json;
-using System.IO;
-using Newtonsoft.Json;
-using System.Security.Policy;
-using Nancy.Json;
+using JsonSerializer = RestSharp.Serialization.Json.JsonSerializer;
 
 
 namespace _01_Framework.Application.ZarinPal
@@ -28,47 +24,36 @@ namespace _01_Framework.Application.ZarinPal
         public PaymentResponse CreatePaymentRequest(string amount, string mobile, string email, string description,
              long orderId)
         {
-            //URLs url = new URLs(this.IsSandBox);
-            //_HttpCore.URL = url.GetPaymentRequestURL();
-            //_HttpCore.Method = Method.POST;
-            //_HttpCore.Raw = PaymentRequest;
-            //this.PaymentRequest = PaymentRequest;
-            //String response = _HttpCore.Get();
-
-            //JavaScriptSerializer j = new JavaScriptSerializer();
-            //PaymentResponse _Response = j.Deserialize<PaymentResponse>(response);
-            //_Response.PaymentURL = url.GetPaymenGatewayURL(_Response.Authority);
-
-            //return _Response;
             amount = amount.Replace(",", "");
             var finalAmount = int.Parse(amount);
             var siteUrl = _configuration.GetSection("payment")["siteUrl"];
-
             var client = new RestClient($"https://{Prefix}.zarinpal.com/pg/rest/WebGate/PaymentRequest.json");
-            var request = new RestRequest(Method.Post.ToString());
+          // var client = new RestClient($"https://{Prefix}.zarinpal.com/pg/v4/payment/request.json");
+            var request = new RestRequest(Method.POST);
+
+          //  request.AddHeader("accept", "application/json");
             request.AddHeader("Content-Type", "application/json");
             var body = new PaymentRequest
             {
                 Mobile = mobile,
-                CallbackURL = $"{siteUrl}/Checkout?handler=CallBack&oId={orderId}",
-                Description = description,
+                callback_url = $"{siteUrl}/Checkout?handler=CallBack&oId={orderId}",
+                description = description,
                 Email = email,
-                Amount = finalAmount,
-                MerchantID = MerchantId
+                amount = finalAmount,
+                merchant_id = MerchantId
             };
             request.AddJsonBody(body);
             var response = client.Execute(request);
-            JavaScriptSerializer jsonSerializer = new JavaScriptSerializer();
-            //var jsonSerializer = new JsonSerializer();
-            return jsonSerializer.Deserialize<PaymentResponse>(response.Content);
-            //var paymentresponse = JsonConvert.DeserializeObject<PaymentResponse>(response.Content);
-            //return paymentresponse;
+            var jsonSerializer = new RestSharp.Serialization.Json.JsonSerializer();
+            return jsonSerializer.Deserialize<PaymentResponse>(response);
+           
         }
 
         public VerificationResponse CreateVerificationRequest(string authority, string amount)
         {
+            // var client = new RestClient($"https://{Prefix}.zarinpal.com/pg/v4/payment/verify.json");
             var client = new RestClient($"https://{Prefix}.zarinpal.com/pg/rest/WebGate/PaymentVerification.json");
-            var request = new RestRequest(Method.Post.ToString());
+            var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type", "application/json");
 
             amount = amount.Replace(",", "");
@@ -81,11 +66,10 @@ namespace _01_Framework.Application.ZarinPal
                 Authority = authority
             });
             var response = client.Execute(request);
-            //var jsonSerializer = new JsonSerializer();
-           
-            //return jsonSerializer.Deserialize<VerificationResponse>(response);
-            var verificationresponse = JsonConvert.DeserializeObject<VerificationResponse>(response.Content);
-            return verificationresponse;
+            var jsonSerializer = new JsonSerializer();
+            return jsonSerializer.Deserialize<VerificationResponse>(response);
+            //var verificationresponse = JsonConvert.DeserializeObject<VerificationResponse>(response.Content);
+            //return verificationresponse;
         }
     }
 }

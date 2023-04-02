@@ -126,6 +126,7 @@ namespace AccountManagement.Application
             throw new NotImplementedException();
         }
 
+
         public EditAccount GetDetails(long id)
         {
             return _accountRepository.GetDetails(id);
@@ -138,7 +139,7 @@ namespace AccountManagement.Application
 
         public List<AccountViewModel> GetAccounts()
         {
-            throw new NotImplementedException();
+            return _accountRepository.GetAccounts();
         }
     }
 }

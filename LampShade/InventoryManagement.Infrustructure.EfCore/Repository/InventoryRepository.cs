@@ -1,5 +1,6 @@
 ﻿using _01_Framework.Application;
 using _01_Framework.Infrastructure;
+using AccountManagement.Infrastructure.EfCore;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using ShopManagement.Infrastructure.EfCore;
@@ -10,11 +11,13 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
     {
         private readonly InventoryContext _inventoryContext;
         private readonly ShopContext _shopContext;
+        private readonly AccountContext _accountContext; 
         public InventoryRepository(InventoryContext inventoryContext,
-            ShopContext shopContext):base(inventoryContext)
+            ShopContext shopContext, AccountContext accountContext):base(inventoryContext)
         {
             _inventoryContext = inventoryContext;
             _shopContext = shopContext;
+            _accountContext = accountContext;
         }
 
       
@@ -60,15 +63,18 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
 
         }
 
-        public Inventory Get(long productId)
+        public Inventory GetBy(long productId)
         {
             return _inventoryContext.Inventory.FirstOrDefault(x => x.ProductId == productId);
         }
 
         public List<InventoryOperationViewModel> GerOperationLog(long inventoryId)
         {
+            var accounts=_accountContext.Accounts.
+                Select(x=>new {x.Id,x.FullName}).ToList();
+
             var inventory=_inventoryContext.Inventory.FirstOrDefault(x=>x.Id==inventoryId);
-            return inventory.InventoryOperations
+            var operations= inventory.InventoryOperations
                 .Select(x=>new InventoryOperationViewModel
                 {
                     Id = x.Id,
@@ -77,12 +83,17 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
                     OrderId = x.OrderId,
                     OperationDate = x.OperationDate.ToFarsi(),
                     Operation = x.Operation,
-                    Operator = "مدیر سیستم",
                     OperatorId = x.OperatorId,
-                    CurrentCount = x.CurrentCount
+                    CurrentCount = x.CurrentCount,
+                    
                 })
                 .OrderByDescending(x=>x.Id)
                 .ToList();
+            foreach (var operation in operations)
+            {
+                operation.Operator = accounts.FirstOrDefault(x => x.Id == operation.OperatorId)?.FullName;
+            }
+            return operations;
         }
     }
 }

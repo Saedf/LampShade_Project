@@ -47,3 +47,13 @@ D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\ob
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\refint\ShopManagement.Infrastructure.Core.dll
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\ShopManagement.Infrastructure.Core.pdb
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.Core.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\ShopManagement.Infrastructure.InventoryACL.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\ShopManagement.Infrastructure.InventoryACL.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\InventoryManagement.Application.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.Core\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.pdb

@@ -45,21 +45,31 @@ namespace ServiceHost.Pages
             _cartService.Set(Cart);
         }
 
-        public IActionResult OnPostPay()
+        public IActionResult OnPostPay(int paymentMethod)
         {
             var cart = _cartService.Get();
+            cart.SetPaymentMethod(paymentMethod);
             var result = _productQuery.CheckInventoryStatus(cart.CartItems);
             
             if (result.Any(x=>!x.IsInStock))
             {
                 return RedirectToPage("/Cart");
             }
+
             var orderId = _orderApplication.PlaceOrder(cart);
-            var paymentResponse = _zarinPalFactory.CreatePaymentRequest(
-                cart.PayAmount.ToString(CultureInfo.InvariantCulture), "", "",
-                "خرید از لوازم خانگی",orderId);
-            return Redirect(
-                $"https://{_zarinPalFactory.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
+            if (paymentMethod==1)
+            {
+                var paymentResponse = _zarinPalFactory.CreatePaymentRequest(
+                    cart.PayAmount.ToString(CultureInfo.InvariantCulture), "", "",
+                    "خرید از لوازم خانگی", orderId);
+                return Redirect(
+                    $"https://{_zarinPalFactory.Prefix}.zarinpal.com/pg/StartPay/{paymentResponse.Authority}");
+            }
+
+            var paymentResult = new PaymentResult();
+            return RedirectToPage("/PaymentResult",
+                paymentResult.Succeeded("سفارش شما با موفقیت ثبت شد",null));
+
         }
 
         public IActionResult OnGetCallBack([FromQuery] string authority,

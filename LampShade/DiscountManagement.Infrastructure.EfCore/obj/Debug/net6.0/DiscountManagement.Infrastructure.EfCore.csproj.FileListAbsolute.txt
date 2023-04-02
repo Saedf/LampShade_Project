@@ -25,3 +25,9 @@ D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfC
 D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EfCore.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
+D:\Programming\LampShade_Project\LampShade\DiscountManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.pdb

@@ -36,15 +36,18 @@ namespace ShopManagement.Domain.OrderAgg
         public void PaymentSucceeded(long refid)
         {
             IsPayed = true;
+            IsCanceled = false;
             if (refid!=0)
             {
                 RefId=refid;
+              
             }
         }
 
         public void Cancel()
         {
             IsCanceled = true;
+            IsPayed = false;
         }
 
         public void SetIssueTrackingNo(string number)

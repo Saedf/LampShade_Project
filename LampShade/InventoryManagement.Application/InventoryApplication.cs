@@ -12,10 +12,12 @@ namespace InventoryManagement.Application
     public class InventoryApplication:IInventoryApplication
     {
         private readonly IInventoryRepository _inventoryRepository;
-
-        public InventoryApplication(IInventoryRepository inventoryRepository)
+        private readonly IAuthHelper _authHelper;
+        public InventoryApplication(IInventoryRepository inventoryRepository,
+            IAuthHelper authHelper)
         {
             _inventoryRepository = inventoryRepository;
+            _authHelper = authHelper;
         }
 
         public OperationResult Create(CreateInventory command)
@@ -69,7 +71,7 @@ namespace InventoryManagement.Application
                 return operation.Faild(ApplicationMessage.RecordNotFound);
             }
 
-            const long operatorId = 1;
+            var operatorId = _authHelper.CurrentAccountId();
             inventory.Increase(command.Count,operatorId,command.Description);
             _inventoryRepository.SaveChanges();
             return operation.Succeeded();
@@ -84,7 +86,7 @@ namespace InventoryManagement.Application
                 return operation.Faild(ApplicationMessage.RecordNotFound);
             }
 
-            const long operatorId = 1;
+            var operatorId = _authHelper.CurrentAccountId();
             inventory.Reduce(command.Count, operatorId, command.Description,0);
             _inventoryRepository.SaveChanges();
             return operation.Succeeded();
@@ -93,11 +95,11 @@ namespace InventoryManagement.Application
         public OperationResult Reduce(List<ReduceInventory> command)
         {
             var operation = new OperationResult();
-            const long operatorId = 1;
+            var operatorId = _authHelper.CurrentAccountId();
 
             foreach (var item in command)
             {
-                var inventory = _inventoryRepository.GetBy(item.InventoryId);
+                var inventory = _inventoryRepository.GetBy(item.ProductId);
                 inventory.Reduce(item.Count,operatorId,item.Description,item.OrderId);
             }
             _inventoryRepository.SaveChanges();

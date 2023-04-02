@@ -10,6 +10,7 @@ namespace ServiceHost.Pages
         public void OnGet(PaymentResult result)
         {
             Result= result;
+            Response.Cookies.Delete("cart-items");
         }
     }
 }

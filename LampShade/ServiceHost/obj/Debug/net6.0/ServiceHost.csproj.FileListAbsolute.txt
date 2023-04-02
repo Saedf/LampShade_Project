@@ -42,7 +42,6 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Mono.Tex
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Nancy.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\RestSharp.dll
-D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\RestSharp.Serializers.NewtonsoftJson.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.CodeDom.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -157,3 +156,5 @@ D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\refint\S
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.InventoryACL.dll
+D:\Programming\LampShade_Project\LampShade\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.InventoryACL.pdb

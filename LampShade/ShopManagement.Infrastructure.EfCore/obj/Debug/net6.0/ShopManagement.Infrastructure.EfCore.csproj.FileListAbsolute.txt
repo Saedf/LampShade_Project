@@ -19,3 +19,9 @@ D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EfCore.pdb
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net6.0\ShopManagement.Infrastructure.EfCore.genruntimeconfig.cache
 D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\obj\Debug\net6.0\ref\ShopManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Domain.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.dll
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Infrastructure.EfCore.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\Programming\LampShade_Project\LampShade\ShopManagement.Infrastructure.EfCore\bin\Debug\net6.0\AccountManagement.Domain.pdb
