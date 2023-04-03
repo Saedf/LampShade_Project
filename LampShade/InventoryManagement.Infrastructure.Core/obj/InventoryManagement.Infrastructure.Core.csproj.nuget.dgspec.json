@@ -108,6 +108,83 @@
         }
       }
     },
+    "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj",
+        "projectName": "02_LampShadeQuery",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrustructure.EfCore\\InventoryManagement.Infrustructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrustructure.EfCore\\InventoryManagement.Infrustructure.EfCore.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Programming\\LampShade_Project\\LampShade\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -303,6 +380,651 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectName": "BlogManagement.Application.Contracts",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "projectName": "BlogManagement.Domain",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
+        "projectName": "BlogManagement.Infrastructure.EfCore",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\BlogManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Infrastructure.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "projectName": "CommentManagement.Application.Contracts",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectName": "CommentManagement.Domain",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj",
+        "projectName": "CommentManagement.Infrastructure.EfCore",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\CommentManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Infrastructure.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectName": "DiscountManagement.Application.Contract",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\01_Framework\\01_Framework.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj",
+        "projectName": "DiscountManagement.Infrastructure.EfCore",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\DiscountManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Infrastructure.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
@@ -544,6 +1266,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
               },

@@ -8,9 +8,11 @@ using BlogManagement.Infrastructure.Core;
 using CommentManagement.Infrastructure.Core;
 using DiscountManagement.Infrastructure.Core;
 using InventoryManagement.Infrastructure.Core;
+using InventoryManagement.Presentation.Api;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using ServiceHost;
 using ShopManagement.Infrastructure.Core;
+using ShopManagement.Presentation.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +35,7 @@ builder.Services.AddSingleton<IPasswordHasher, PasswordHasher>();
 builder.Services.AddTransient<IAuthHelper, AuthHelper>();
 builder.Services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
 
+
 builder.Services.Configure<CookiePolicyOptions>(options =>
 {
     options.CheckConsentNeeded = context => true;
@@ -47,7 +50,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 builder.Services.AddAuthorization(options =>
     {
-        options.AddPolicy("AdminArea",builder => builder.RequireRole(new List<string> {Roles.Administrator,Roles.ContentUploader}));
+        options.AddPolicy("AdminArea", builder => builder.RequireRole(new List<string> { Roles.Administrator, Roles.ContentUploader }));
         options.AddPolicy("Shop", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
         options.AddPolicy("Account", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
         options.AddPolicy("Discount", builder => builder.RequireRole(new List<string> { Roles.Administrator }));
@@ -73,7 +76,10 @@ builder.Services.AddRazorPages()
     options.Conventions.AuthorizeAreaFolder("Administration", "/Discounts", "Discount");
     options.Conventions.AuthorizeAreaFolder("Administration", "/Accounts", "Account");
     options.Conventions.AuthorizeAreaFolder("Administration", "/Inventory", "Inventory");
-});
+})
+    .AddApplicationPart(typeof(ProductController).Assembly)
+    .AddApplicationPart(typeof(InventoryController).Assembly);
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -93,4 +99,5 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapControllers();
 app.Run();

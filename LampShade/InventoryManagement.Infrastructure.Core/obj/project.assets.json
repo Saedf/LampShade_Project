@@ -2962,6 +2962,24 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
+      "02_LampShadeQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infrastructure.EfCore": "1.0.0",
+          "DiscountManagement.Infrastructure.EfCore": "1.0.0",
+          "InventoryManagement.Infrustructure.EfCore": "1.0.0",
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/02_LampShadeQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/02_LampShadeQuery.dll": {}
+        }
+      },
       "AccountManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3003,6 +3021,135 @@
         },
         "runtime": {
           "bin/placeholder/AccountManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastructure.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Infrastructure.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infrastructure.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "DiscountManagement.Application.Contract": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DiscountManagement.Infrastructure.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountManagement.Infrastructure.EfCore.dll": {}
         }
       },
       "InventoryManagement.Application/1.0.0": {
@@ -8889,6 +9036,11 @@
       "path": "../01_Framework/01_Framework.csproj",
       "msbuildProject": "../01_Framework/01_Framework.csproj"
     },
+    "02_LampShadeQuery/1.0.0": {
+      "type": "project",
+      "path": "../02_LampShadeQuery/02_LampShadeQuery.csproj",
+      "msbuildProject": "../02_LampShadeQuery/02_LampShadeQuery.csproj"
+    },
     "AccountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../AccountManangement.Application.Contracts/AccountManagement.Application.Contracts.csproj",
@@ -8903,6 +9055,51 @@
       "type": "project",
       "path": "../AccountManagement.Infrastructure.EfCore/AccountManagement.Infrastructure.EfCore.csproj",
       "msbuildProject": "../AccountManagement.Infrastructure.EfCore/AccountManagement.Infrastructure.EfCore.csproj"
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj"
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Domain/BlogManagement.Domain.csproj",
+      "msbuildProject": "../BlogManagement.Domain/BlogManagement.Domain.csproj"
+    },
+    "BlogManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../BlogManagement.Infrastructure.EfCore/BlogManagement.Infrastructure.EfCore.csproj"
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infrastructure.EfCore/CommentManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../CommentManagement.Infrastructure.EfCore/CommentManagement.Infrastructure.EfCore.csproj"
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj",
+      "msbuildProject": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj"
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Domain/DiscountManagement.Domain.csproj",
+      "msbuildProject": "../DiscountManagement.Domain/DiscountManagement.Domain.csproj"
+    },
+    "DiscountManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../DiscountManagement.Infrastructure.EfCore/DiscountManagement.Infrastructure.EfCore.csproj",
+      "msbuildProject": "../DiscountManagement.Infrastructure.EfCore/DiscountManagement.Infrastructure.EfCore.csproj"
     },
     "InventoryManagement.Application/1.0.0": {
       "type": "project",
@@ -8942,6 +9139,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "02_LampShadeQuery >= 1.0.0",
       "InventoryManagement.Application >= 1.0.0",
       "InventoryManagement.Domain >= 1.0.0",
       "InventoryManagement.Infrustructure.EfCore >= 1.0.0",
@@ -8979,6 +9177,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+              "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+            },
             "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
               "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             },

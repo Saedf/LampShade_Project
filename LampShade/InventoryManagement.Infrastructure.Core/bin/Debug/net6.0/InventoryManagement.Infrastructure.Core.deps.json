@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "InventoryManagement.Infrastructure.Core/1.0.0": {
         "dependencies": {
+          "02_LampShadeQuery": "1.0.0",
           "InventoryManagement.Application": "1.0.0",
           "InventoryManagement.Domain": "1.0.0",
           "InventoryManagement.Infrustructure.EfCore": "1.0.0",
@@ -1755,6 +1756,19 @@
           "01_Framework.dll": {}
         }
       },
+      "02_LampShadeQuery/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Infrastructure.EfCore": "1.0.0",
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infrastructure.EfCore": "1.0.0",
+          "DiscountManagement.Infrastructure.EfCore": "1.0.0",
+          "InventoryManagement.Infrustructure.EfCore": "1.0.0",
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "02_LampShadeQuery.dll": {}
+        }
+      },
       "AccountManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "01_Framework": "1.0.0",
@@ -1781,6 +1795,90 @@
         },
         "runtime": {
           "AccountManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
+        "runtime": {
+          "BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogManagement.Infrastructure.EfCore/1.0.0": {
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "runtime": {
+          "BlogManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure.EfCore/1.0.0": {
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "runtime": {
+          "CommentManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "ShopManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Application.Contract.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01_Framework": "1.0.0",
+          "DiscountManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.EfCore/1.0.0": {
+        "dependencies": {
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Infrastructure.EfCore.dll": {}
         }
       },
       "InventoryManagement.Application/1.0.0": {
@@ -3012,6 +3110,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "02_LampShadeQuery/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "AccountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3023,6 +3126,51 @@
       "sha512": ""
     },
     "AccountManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlogManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommentManagement.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Infrastructure.EfCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

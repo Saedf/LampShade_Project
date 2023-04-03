@@ -28,6 +28,7 @@ namespace BlogManagement.Infrastructure.Core
             services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             services.AddDbContext<BlogContext>(x => x.UseSqlServer(connectionString));
+           
 
         }
     }

@@ -63,9 +63,9 @@ namespace InventoryManagement.Infrustructure.EfCore.Repository
 
         }
 
-        public Inventory GetBy(long productId)
+        public Inventory GetBy(long id)
         {
-            return _inventoryContext.Inventory.FirstOrDefault(x => x.ProductId == productId);
+            return _inventoryContext.Inventory.FirstOrDefault(x => x.Id == id);
         }
 
         public List<InventoryOperationViewModel> GerOperationLog(long inventoryId)

@@ -167,7 +167,9 @@
     <ProjectReference Include="..\CommentManagement.Infrastructure.Core\CommentManagement.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\DiscountManagement.Infrastructure.Core\DiscountManagement.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Core\InventoryManagement.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Presentation.Api\InventoryManagement.Presentation.Api.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.Core\ShopManagement.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\ShopManagement.Presentation.Api\ShopManagement.Presentation.Api.csproj" />
   </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
@@ -183,6 +185,7 @@
 		<PackageReference Include="Nancy" Version="2.0.0" />
 	</ItemGroup>
 	<ItemGroup>
+	  <Folder Include="Controllers\" />
 	  <Folder Include="Pages\Shared\Components\LatestArticles\" />
 	  <Folder Include="ProductPictures\" />
 	  <Folder Include="Pages\Shared\Components\Menu\" />

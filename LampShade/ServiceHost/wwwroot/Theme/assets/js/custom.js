@@ -79,7 +79,38 @@ function changeCartItemCount(id, totalId, count) {
     //products[productIndex].totalPrice = newPrice;
     $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
     updateCart();
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://localhost:5001/api/inventory",
+        "method": "POST",
+        "headers": {
+            "content-type": "application/json",
+            "cache-control": "no-cache",
+            "postman-token": "3498e618-8e39-6ae8-4f11-5d74b1b27996"
+        },
+        "processData": false,
+        "data": "{\n\t\"productId\":26,\n\t\"count\":2\n}"
+    }
 
+    $.ajax(settings).done(function (data) {
+        if (data.isStock == false) {
+            const warningsDiv = $('#productStockWarnings');
+            if ($(`#${id}`).length == 0) {
+                warningsDiv.append(`
+                    <div class="alert alert-warning" id="${id}">
+                        <i class="fa fa-warning"></i> کالای
+                        <strong>${data.productName}</strong>
+                        در انبار کمتر از تعداد درخواستی موجود است.
+                    </div>
+                `);
+            }
+        } else {
+            if ($(`#${id}`).length > 0) {
+                $(`#${id}`).remove();
+            }
+        }
+    });
     //const data = {
     //    'productId': parseInt(id),
     //    'count': parseInt(count)
@@ -117,32 +148,32 @@ function changeCartItemCount(id, totalId, count) {
     //});
 
 
-    const settings = {
-        "url": "https://localhost:5001/api/inventory",
-        "method": "POST",
-        "timeout": 0,
-        "headers": {
-            "Content-Type": "application/json"
-        },
-        "data": JSON.stringify({ "productId": id, "count": count })
-    };
+//    const settings = {
+//        "url": "https://localhost:5001/api/inventory",
+//        "method": "POST",
+//        "timeout": 0,
+//        "headers": {
+//            "Content-Type": "application/json"
+//        },
+//        "data": JSON.stringify({ "productId": id, "count": count })
+//    };
 
-    $.ajax(settings).done(function (data) {
-        if (data.isStock == false) {
-            const warningsDiv = $('#productStockWarnings');
-            if ($(`#${id}`).length == 0) {
-                warningsDiv.append(`
-                    <div class="alert alert-warning" id="${id}">
-                        <i class="fa fa-warning"></i> کالای
-                        <strong>${data.productName}</strong>
-                        در انبار کمتر از تعداد درخواستی موجود است.
-                    </div>
-                `);
-            }
-        } else {
-            if ($(`#${id}`).length > 0) {
-                $(`#${id}`).remove();
-            }
-        }
-    });
-}
+//    $.ajax(settings).done(function (data) {
+//        if (data.isStock == false) {
+//            const warningsDiv = $('#productStockWarnings');
+//            if ($(`#${id}`).length == 0) {
+//                warningsDiv.append(`
+//                    <div class="alert alert-warning" id="${id}">
+//                        <i class="fa fa-warning"></i> کالای
+//                        <strong>${data.productName}</strong>
+//                        در انبار کمتر از تعداد درخواستی موجود است.
+//                    </div>
+//                `);
+//            }
+//        } else {
+//            if ($(`#${id}`).length > 0) {
+//                $(`#${id}`).remove();
+//            }
+//        }
+//    });
+//}

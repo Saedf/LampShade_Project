@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\02_LampShadeQuery\02_LampShadeQuery.csproj" />
+    <ProjectReference Include="..\BlogManagement.Infrastructure.Core\BlogManagement.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\CommentManagement.Infrastructure.Core\CommentManagement.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\ServiceHost\ServiceHost.csproj" />
+  </ItemGroup>
+
+</Project>

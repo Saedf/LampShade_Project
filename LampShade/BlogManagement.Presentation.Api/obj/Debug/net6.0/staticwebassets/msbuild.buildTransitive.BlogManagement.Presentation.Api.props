@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BlogManagement.Presentation.Api.props" />
+</Project>

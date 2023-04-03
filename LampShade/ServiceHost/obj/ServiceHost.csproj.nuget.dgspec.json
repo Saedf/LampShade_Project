@@ -1825,6 +1825,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
               },
@@ -1962,6 +1965,77 @@
         }
       }
     },
+    "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
+        "projectName": "InventoryManagement.Presentation.Api",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Programming\\LampShade_Project\\LampShade\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -2007,8 +2081,14 @@
               "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.Core\\InventoryManagement.Infrastructure.Core.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Infrastructure.Core\\InventoryManagement.Infrastructure.Core.csproj"
               },
+              "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\InventoryManagement.Presentation.Api\\InventoryManagement.Presentation.Api.csproj"
+              },
               "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.Core\\ShopManagement.Infrastructure.Core.csproj": {
                 "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Infrastructure.Core\\ShopManagement.Infrastructure.Core.csproj"
+              },
+              "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj"
               }
             }
           }
@@ -2494,6 +2574,74 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj",
+        "projectName": "ShopManagement.Presentation.Api",
+        "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\ShopManagement.Presentation.Api.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\LampShade_Project\\LampShade\\ShopManagement.Presentation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj": {
+                "projectPath": "D:\\Programming\\LampShade_Project\\LampShade\\02_LampShadeQuery\\02_LampShadeQuery.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
