@@ -80,19 +80,17 @@ function changeCartItemCount(id, totalId, count) {
     $.cookie(cookieName, JSON.stringify(products), { expires: 2, path: "/" });
     updateCart();
     var settings = {
-        "async": true,
-        "crossDomain": true,
         "url": "https://localhost:5001/api/inventory",
         "method": "POST",
+        "timeout": 0,
         "headers": {
-            "content-type": "application/json",
-            "cache-control": "no-cache",
-            "postman-token": "3498e618-8e39-6ae8-4f11-5d74b1b27996"
+            "Content-Type": "application/json"
         },
-        "processData": false,
-        "data": "{\n\t\"productId\":26,\n\t\"count\":2\n}"
-    }
-
+        "data": JSON.stringify({
+            "productId": id,
+            "count": count
+        }),
+    };
     $.ajax(settings).done(function (data) {
         if (data.isStock == false) {
             const warningsDiv = $('#productStockWarnings');
